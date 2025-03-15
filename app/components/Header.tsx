@@ -15,7 +15,7 @@ const Header = () => {
                         <div className='grow-0 shrink-0 basis-[58%] max-w-[58%] relative w-full min-h-[1px] pr-[15px] pl-[15px] block h-100'>
                             <Image
                                 alt=''
-                                src={'/pictures/photo-1.jpg'}
+                                src={'./pictures/photo-1.jpg'}
                                 fill
                                 className='object-cover'
                             />
@@ -23,7 +23,7 @@ const Header = () => {
                         <div className='w-[16rem] h-[19rem] top-[13rem] right-[2rem] absolute z-1 box-border'>
                             <Image
                                 alt=''
-                                src={'/flowers/floater_1.png'}
+                                src={'./flowers/floater_1.png'}
                                 fill
                                 className='object-cover'
                             />
