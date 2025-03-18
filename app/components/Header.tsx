@@ -5,7 +5,7 @@ import React from 'react'
 const Header = () => {
 
   return (
-    <section className='min-h-screen pt-[5.5rem] pb-[2.5rem] mb-[1rem] relative justify-center flex flex-wrap mr-[15px] ml-[-15px]'>
+    <section className='hidden md:block min-h-screen pt-[5.5rem] pb-[2.5rem] mb-[1rem] relative justify-center flex-wrap mr-[15px] ml-[-15px]'>
         <div className='grow-0 shrink-0 basis-full max-w-full relative w-full min-h-[1px] pr-[15px] pl-[15px] block'>
             <div className='h-full justify-start flex flex-wrap mr-[-15px] ml-[-15px]'>
                 <div className='grow-0 shrink-0 max-w-full relative w-full min-h-[1px] pr-[15px] pl-[15px] box-border'>
@@ -37,10 +37,14 @@ const Header = () => {
                     <div className='flex flex-wrap mr-[-15px] ml-[-15px] box-border '>
                         <div className='h-[300px] grow-0 shrink-0 basis-[16%] max-w-[16%] relative w-full min-h-[1px] pr-[15px] pl-[15px] box-border block'>
                             {/* WEDDING DATE */}
-                            <p className='text-moss w-[300px] h-[130px] -rotate-90 absolute top-[4rem] left-[3rem] text-[1.625rem] tracking-[1px] leading-[1.7] mt-[0] mb-[1rem] box-border block space-y-[1em] space-x-[0px]'>November 28, 2025</p>
+                            <p className='text-moss w-[300px] h-[130px] -rotate-90 absolute top-[4rem] left-[-1rem] text-[1.625rem] tracking-[1px] leading-[1.7] mt-[0] mb-[1rem] box-border block space-y-[1em] space-x-[0px]'>November 28, 2025</p>
                         </div>
-                        <div>
-
+                        <div className='shrink-0 basis-[50%] max-w-[50%] relative w-full min-h-[1px] pr-[15px] pl-[15px] box-border block'>
+                            <Image 
+                                alt=''
+                                src={"/pictures/photo-2.jpg"}
+                                fill
+                                className='object-cover'/>
                         </div>
                     </div>
                 </div>
