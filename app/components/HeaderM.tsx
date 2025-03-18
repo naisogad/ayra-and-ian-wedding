@@ -45,7 +45,7 @@ const HeaderM = () => {
             </div>
             {/* TITLE */}
             <div className='left-[0rem] absolute top-[0px] w-[100% - 2rem] text-left box-border block inert:h-auto min-h-[100vh]'>
-                <h1 className='relative z-2 mt-[6rem] min-h-[7rem] drop-shadow-[3px_2px_rgba(255,255,255)] text-[3.25rem] leading-none text-moss mb-[0.5rem] box-border
+                <h1 className='relative z-2 mt-[6rem] min-h-[7rem] drop-shadow-[3px_2px_rgba(255,255,255)] text-[3.25rem] leading-[1.2] text-moss mb-[0.5rem] box-border
                 block space-x-[0px] text-left'>
                 Ayra
                 <br />
