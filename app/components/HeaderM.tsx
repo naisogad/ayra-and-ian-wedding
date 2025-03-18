@@ -22,7 +22,7 @@ const HeaderM = () => {
             </div>
             {/* DATE */}
             <div className='relative w-full mt-[5rem] box-border block break-words text-right'>
-                <p className='top-[86px] left-[-50px] block text-[1.4rem] text-moss transform -rotate-90 absolute overflow-hidden z-2 mt-0 mb-[1rem]
+                <p className='top-[86px] left-[-45px] block text-[1.4rem] text-moss transform -rotate-90 absolute overflow-hidden z-2 mt-0 mb-[1rem]
                 space-y-[1em] space-x-[0px] break-words text-right'>November 28, 2025</p>
             </div>
             {/* IMAGE 2 */}
@@ -35,16 +35,16 @@ const HeaderM = () => {
                 />
             </div>
             {/* IMAGE 3 */}
-            <div className='w-[12rem] h-[14rem] bottom-[12rem] right-[-1rem] absolute z-1 box-border'>
+            <div className='w-[12rem] h-[14rem] bottom-[1.8rem] right-[0rem] absolute z-1 box-border'>
                 <Image 
                     alt=''
                     src={'/flowers/floater_1.png'}
                     fill
-                    // className='object-cover'
+                    className='object-cover'
                 />
             </div>
             {/* TITLE */}
-            <div className='left-[0 rem] absolute top-[0px] w-[100% - 2rem] text-left box-border block inert:h-auto min-h-[100vh]'>
+            <div className='left-[0rem] absolute top-[0px] w-[100% - 2rem] text-left box-border block inert:h-auto min-h-[100vh]'>
                 <h1 className='relative z-2 mt-[6rem] min-h-[7rem] drop-shadow-[3px_2px_rgba(255,255,255)] text-[3.25rem] leading-none text-moss mb-[0.5rem] box-border
                 block space-x-[0px] text-left'>
                 Ayra
