@@ -35,7 +35,7 @@ const HeaderM = () => {
                 />
             </div>
             {/* IMAGE 3 */}
-            <div className='w-[12rem] h-[14rem] bottom-[1.8rem] right-[0rem] absolute z-1 box-border'>
+            <div className='w-[12rem] h-[14rem] bottom-[1.8rem] right-[-2rem] absolute z-1 box-border'>
                 <Image 
                     alt=''
                     src={'/flowers/floater_1.png'}
