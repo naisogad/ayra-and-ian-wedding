@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import { useState } from "react";
 import HeaderM from "./components/HeaderM";
+import About from "./components/About";
+import AboutM from "./components/AboutM";
 
 export default function Home() {
 
@@ -15,6 +17,8 @@ export default function Home() {
     <Navbar />
     <Header/>
     <HeaderM/>
+    <About />
+    <AboutM />
     </div>
     </>
   );
