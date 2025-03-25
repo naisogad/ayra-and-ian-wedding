@@ -32,7 +32,7 @@ const Navbar = () => {
           </ul>
         </div>
       {/* MOBILE MENU */}
-        <div>
+        <div className={`${toggleMenu? '': '-mr-480'}  md:hidden size-full fixed top-0 right-0 m-0 transition-all duration-400 ease-[cubic-bezier(0.77, 0.2, 0.05, 1)] bg-white/70`}>
           <ul className={`${toggleMenu? '': '-ml-225'} md:hidden flex flex-col fixed gap-6 w-200 h-230 mt-15 pb-10 pt-10 pl-5 float-left bg-stain transition-all duration-400 ease-[cubic-bezier(0.77, 0.2, 0.05, 1)]`}>
             <li><a className='text-3xl text-moss' onClick={toggleNav} href="#top">Home</a></li>
             <li><a className='text-3xl text-moss' onClick={toggleNav} href="#ourstory">The Couple</a></li>
