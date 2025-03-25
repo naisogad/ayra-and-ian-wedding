@@ -24,7 +24,7 @@ const Navbar = () => {
         {/* MENU BUTTON*/}
         <h4 className={`${toggleMenu? 'pr-[30px] top-[79px]': ''} hidden md:block fixed rotate-90 top-[4rem] right-[0rem] z-3 cursor-pointer text-3xl uppercase text-moss`} onClick={toggleNav}>Menu</h4>
         {/* MOBILE BUTTON */}
-        <button className={`${toggleMenu? '': ''} space-y-1 fixed top-5 right-5 z-3 md:hidden`} onClick={toggleNav}>
+        <button className={`${toggleMenu? 'right-[35px]': ''} space-y-1 fixed top-5 right-5 z-3 md:hidden`} onClick={toggleNav}>
           <span className={`block h-1 w-7 bg-moss transition-all duration-400 ease-[cubic-bezier(0.77, 0.2, 0.05, 1) ${toggleMenu? 'rotate-45 translate-y-3': ''}`}></span>
           <span className={`block h-1 w-7 bg-moss transition-all duration-400 ease-[cubic-bezier(0.77, 0.2, 0.05, 1) ${toggleMenu? 'scale-0 opacity-0': ''}`}></span>
           <span className={`block h-1 w-7 bg-moss transition-all duration-400 ease-[cubic-bezier(0.77, 0.2, 0.05, 1) ${toggleMenu? '-rotate-45 -translate-y-1': ''}`}></span>
