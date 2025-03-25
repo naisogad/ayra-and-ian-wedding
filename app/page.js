@@ -6,6 +6,7 @@ import { useState } from "react";
 import HeaderM from "./components/HeaderM";
 import About from "./components/About";
 import AboutM from "./components/AboutM";
+import ObserverProvider from "./components/Observer";
 
 export default function Home() {
 
@@ -13,13 +14,15 @@ export default function Home() {
 
   return (
     <>
-    <div className="mr-auto ml-auto w-full xl:max-w-[1220px] lg:max-w-[984px] md:max-w-[984px] sm:max-w-[600px]">
-    <Navbar />
-    <Header/>
-    <HeaderM/>
-    <About />
-    <AboutM />
-    </div>
+    <ObserverProvider>
+      <div className="mr-auto ml-auto w-full xl:max-w-[1220px] lg:max-w-[984px] md:max-w-[984px] sm:max-w-[600px]">
+        <Navbar />
+        <Header/>
+        <HeaderM/>
+        <About />
+        <AboutM />
+      </div>
+    </ObserverProvider>
     </>
   );
 }
