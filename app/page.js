@@ -23,16 +23,18 @@ export default function Home() {
 
   if (loading) {
     return (
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '100vh',
-          fontSize: '1.5rem',
-          fontWeight: 'bold',
-        }}
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh',
+        fontSize: '1.2rem',
+        flexDirection: 'column',
+        gap: '4px'
+        // fontWeight: 'bold',
+      }}
       >
+        <p className="text-moss gap-1">Loading...</p>
         <BarLoader 
           color="#527d39" 
           height={3} 
