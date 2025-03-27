@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const HeaderM = () => {
   return (
-    <section className='mb-0 pr-0 h-auto pt-0 min-h-[92vh] pb-[3.5rem] relative ml-0 mr-0 mt-15 justify-center flex flex-wrap box-border lg:hidden md:hidden'>
+    <section className='mb-0 pr-0 h-auto pt-0 min-h-[100vh] pb-[10rem] relative ml-0 mr-0 mt-15 justify-center flex flex-wrap box-border lg:hidden md:hidden'>
         <div className='left-0 top-0 absolute w-[7rem] h-[7rem] z-1 box-border block pointer-events-none'></div>
         <div className='right-0 top-0 absolute w-[7rem] h-[7rem] z-1 box-border block pointer-events-none'></div>
         <div className='bg-[left_0.5rem] top-[5rem] h-auto min-h-[100vh] z-1 pr-0 pl-0 relative w-full box-border block'>
@@ -34,8 +34,8 @@ const HeaderM = () => {
                     className='object-cover'
                 />
             </div>
-            {/* IMAGE 3 */}
-            <div className='w-[12rem] h-[14rem] bottom-[1.8rem] right-[-2rem] absolute z-1 box-border motion-preset-slide-up motion-duration-1000'>
+            {/* FLOWER 1 */}
+            <div className='w-[11rem] h-[14rem] bottom-[10%] left-[60%] relative z-1 box-border motion-preset-slide-up motion-duration-1000'>
                 <Image 
                     alt=''
                     src={'/flowers/floater_1.png'}

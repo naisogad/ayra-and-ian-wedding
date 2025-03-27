@@ -9,7 +9,7 @@ const Navbar = () => {
       setToggleMenu(!toggleMenu);
       // if (!toggleMenu) {
       //   document.body.style.overflow = 'hidden';
-      //   document.body.style.paddingRight = '0.75%'
+      //   document.body.style.paddingRight = '15px'
       // } else {
       //   document.body.style.overflow = '';
       //   document.body.style.paddingRight = ''
