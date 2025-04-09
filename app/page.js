@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <>
     <ObserverProvider>
-    <div className="mr-auto ml-auto w-full xl:max-w-[1220px] lg:max-w-[984px] md:max-w-[984px] sm:max-w-[600px]">
+    <div className="mr-auto ml-auto w-full xl:max-w-[1220px] lg:max-w-[984px] md:max-w-[984px] sm:max-w-[560px]">
       <Navbar />
       <Header/>
       <HeaderM/>

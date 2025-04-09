@@ -5,8 +5,6 @@ import Image from 'next/image'
 const HeaderM = () => {
   return (
     <section className='mb-0 pr-0 h-auto pt-0 min-h-[100vh] pb-[10rem] relative ml-0 mr-0 mt-15 justify-center flex flex-wrap box-border lg:hidden md:hidden'>
-        {/* <div className='left-0 top-0 absolute w-[7rem] h-[7rem] z-1 box-border block pointer-events-none'></div>
-        <div className='right-0 top-0 absolute w-[7rem] h-[7rem] z-1 box-border block pointer-events-none'></div> */}
         <div className='top-[5rem] h-auto min-h-[100vh] z-1 pr-0 pl-0 relative w-full box-border block'>
             {/* HEADER 1 */}
             <div className='left-[5%] relative mb-[92px] w-[100%] box-border block h-auto min-h-[20rem] motion-preset-slide-left motion-duration-1000'>
@@ -24,7 +22,7 @@ const HeaderM = () => {
                 space-y-[1em] space-x-[0px] break-words text-right'>November 28, 2025</p>
             </div>
             {/* IMAGE 2 */}
-            <div className='left-[5%] w-[80%] max-w-[100%] h-[0%] relative ml-auto box-border block min-h-[25%] align-middle motion-preset-slide-left motion-duration-1000'>
+            <div className='left-[5%] w-[80%] max-w-[80%] h-[0%] relative ml-auto box-border block min-h-[25%] align-middle motion-preset-slide-left motion-duration-1000'>
                 <Image 
                     alt=''
                     src={'/pictures/photo-2.jpg'}
