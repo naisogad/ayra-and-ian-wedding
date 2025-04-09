@@ -9,16 +9,14 @@ const HeaderM = () => {
         <div className='right-0 top-0 absolute w-[7rem] h-[7rem] z-1 box-border block pointer-events-none'></div> */}
         <div className='top-[5rem] h-auto min-h-[100vh] z-1 pr-0 pl-0 relative w-full box-border block'>
             {/* HEADER 1 */}
-            <div className='left-[0] relative mb-[92px] w-[100%] text-right box-border block h-auto min-h-[20rem] motion-preset-slide-left motion-duration-1000'>
+            <div className='left-[4%] relative mb-[92px] w-[100%] box-border block h-auto min-h-[20rem] motion-preset-slide-left motion-duration-1000'>
                 {/* IMAGE 1 */}
-                <div className='box-border block text-right'>
-                    <Image
-                        alt=''
-                        src={'/pictures/photo-1.jpg'}
-                        fill
-                        className='object-cover'
-                    />
-                </div>
+                <Image
+                    alt=''
+                    src={'/pictures/photo-1.jpg'}
+                    fill
+                    className='object-cover'
+                />
             </div>
             {/* DATE */}
             <div className='relative w-full mt-[5rem] box-border block break-words text-right motion-preset-slide-right motion-duration-1000'>
@@ -26,7 +24,7 @@ const HeaderM = () => {
                 space-y-[1em] space-x-[0px] break-words text-right'>November 28, 2025</p>
             </div>
             {/* IMAGE 2 */}
-            <div className='text-right w-[80%] max-w-[100%] h-[0%] relative ml-auto box-border block break-words min-h-[25%] align-middle motion-preset-slide-left motion-duration-1000'>
+            <div className='left-[4%] w-[80%] max-w-[100%] h-[0%] relative ml-auto box-border block min-h-[25%] align-middle motion-preset-slide-left motion-duration-1000'>
                 <Image 
                     alt=''
                     src={'/pictures/photo-2.jpg'}
