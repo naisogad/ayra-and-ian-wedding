@@ -7,6 +7,8 @@ import About from "./components/About";
 import AboutM from "./components/AboutM";
 import ObserverProvider from "./components/Observer";
 import { BarLoader } from "react-spinners";
+import Couple from "./components/Couple";
+import CoupleM from "./components/CoupleM";
 
 export default function Home() {
 
@@ -53,6 +55,8 @@ export default function Home() {
       <HeaderM/>
       <About />
       <AboutM />
+      <Couple />
+      <CoupleM />
     </div>
     </ObserverProvider>
     </>
