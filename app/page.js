@@ -9,6 +9,10 @@ import ObserverProvider from "./components/Observer";
 import { BarLoader } from "react-spinners";
 import Couple from "./components/Couple";
 import CoupleM from "./components/CoupleM";
+import Abays from "./components/Abays";
+import AbaysM from "./components/AbaysM";
+import Link from 'next/link';
+
 
 export default function Home() {
 
@@ -57,6 +61,8 @@ export default function Home() {
       <AboutM />
       <Couple />
       <CoupleM />
+      <Abays />
+      <AbaysM />
     </div>
     </ObserverProvider>
     </>

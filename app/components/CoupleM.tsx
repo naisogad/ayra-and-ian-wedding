@@ -3,9 +3,9 @@ import React from 'react'
 
 const CoupleM = () => {
   return (
-    <section className='min-h-[503px] pt-[3.5rem] pr-[0.5rem] pb-[3.5rem] relative justify-center flex flex-wrap box-border mt-[8rem] lg:hidden md:hidden'>\
+    <section id='coupleM' className='min-h-[503px] pt-[3.5rem] pr-[0.5rem] pb-[3.5rem] relative justify-center flex flex-wrap box-border mt-[8rem] lg:hidden md:hidden'>\
         {/* FLOWER */}
-        <div className='w-[13rem] h-[12rem] top-[-3%] left-[1%] rotate-275 absolute z-2 pointer-events-none box-border block intersect-once intersect:motion-preset-slide-down motion-duration-1000'>
+        <div className='w-[13rem] h-[12rem] top-[-3%] left-[1%] rotate-275 absolute z-1 pointer-events-none box-border block intersect-once intersect:motion-preset-slide-down motion-duration-1000'>
             <Image 
                 src={'/flowers/floater_2.png'}
                 alt=''
@@ -18,7 +18,7 @@ const CoupleM = () => {
             <h2 className='-rotate-90 text-moss absolute whitespace-nowrap text-ellipsis z-2 pb-[0.5rem] top-[17rem] left-[-8.5rem] text-[4rem] leading-[0.9] intersect-once intersect:motion-preset-slide-up motion-duration-1000'>The Couple</h2>
         </div>
         {/* IMAGES CONTAINER */}
-        <div className='z-1 ml-auto grow-0 shrink-0 basis-[75%] max-w-[75%] min-h-[1px] box-border block'>
+        <div className='z-0 ml-auto grow-0 shrink-0 basis-[75%] max-w-[75%] min-h-[1px] box-border block'>
           <div className='justify-end flex flex-wrap box-border'>
             {/* IMAGE COLUMN */}
             <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pl-[15px] pr-[15px] box-border block intersect-once intersect:motion-preset-slide-up motion-duration-1000'>
@@ -55,7 +55,7 @@ const CoupleM = () => {
             {/* CONTENT COLUMN */}
             <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pl-[15px] pr-[15px] box-border block'>
               <div className='flex flex-wrap box-border'>
-                <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] box-border block intersect-once intersect:motion-preset-slide-up motion-duration-1000'>
+                <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] box-border block bg-amber-50 pr-[15px] pl-[15px] mt-[1rem] intersect-once intersect:motion-preset-slide-up motion-duration-1000'>
                   {/* TITLE */}
                   <h3 className='text-moss text-[2rem] leading-[1.7] mt-[1rem] mb-[0.5rem] overflow-hidden text-ellipsis relative z-2 text-center box-border'>Ayra & Ian</h3>
                   <p className='mt-[0.5rem] mb-[1rem] text-[1.125rem] leading-[1.7] break-normal overflow-hidden relative z-2 text-moss text-left box-border block'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus. Nulla pellentesque mi turpis, vitae egestas turpis feugiat sed. Donec sit amet aliquet ipsum, sit amet sagittis dui. Morbi rutrum erat condimentum lorem sollicitudin, eu sodales mi laoreet.</p>
