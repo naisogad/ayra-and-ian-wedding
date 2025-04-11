@@ -20,12 +20,12 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className='block top-0 right-0 z-2'>
+      <div className='flex top-0 right-0 z-2'>
         {/* MENU BUTTON*/}
         <h4 className='hidden md:block fixed rotate-90 top-[4rem] right-[0rem] z-3 cursor-pointer text-3xl uppercase text-moss' onClick={toggleNav}>Menu</h4>
         {/* MOBILE BUTTON */}
-        <div className='w-15.5 h-screen top-0 right-0 fixed z-3 block'>
-          <button className='space-y-1 top-[3%] left-[28%] relative box-border block md:hidden' onClick={toggleNav}>
+        <div className='w-screen h-12 top-0 fixed z-3 block'>
+          <button className='space-y-1 relative left-[90%] top-[30%] box-border block md:hidden' onClick={toggleNav}>
             <span className={`block h-1 w-7 bg-moss transition-all duration-400 ease-[cubic-bezier(0.77, 0.2, 0.05, 1) ${toggleMenu? 'rotate-45 translate-y-3': ''}`}></span>
             <span className={`block h-1 w-7 bg-moss transition-all duration-400 ease-[cubic-bezier(0.77, 0.2, 0.05, 1) ${toggleMenu? 'scale-0 opacity-0': ''}`}></span>
             <span className={`block h-1 w-7 bg-moss transition-all duration-400 ease-[cubic-bezier(0.77, 0.2, 0.05, 1) ${toggleMenu? '-rotate-45 -translate-y-1': ''}`}></span>
