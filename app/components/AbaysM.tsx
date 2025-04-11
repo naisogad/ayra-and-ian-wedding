@@ -27,7 +27,7 @@ const AbaysM = () => {
   return (
     <section id='abaysM' className='flex min-h-[600px] pt-[15rem] pr-[0.5rem] pb-[3.5rem] relative justify-center flex-wrap box-border lg:hidden md:hidden'>
         {/* FLOWER 1 */}
-        <div className='w-[18rem] h-[14rem] top-[6%] left-[37%] absolute z-1 pointer-events-none box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
+        <div className='w-[18rem] h-[14rem] top-[6%] left-[23%] absolute z-1 pointer-events-none box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
             <Image 
                 alt=''
                 src={'/flowers/floater_3.png'}

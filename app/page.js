@@ -51,17 +51,17 @@ export default function Home() {
   return (
     <>
     <ObserverProvider>
-    {/* <div className="mr-auto ml-auto w-full 2x1:max-w-[1510px] xl:max-w-[1220px] lg:max-w-[984px] md:max-w-[720px] sm:max-w-[640px]"> */}
-    <div className="mr-auto ml-auto w-full 2x1:max-w-[1510px] xl:max-w-[1220px] lg:max-w-[984px] md:max-w-[500px]">
+    <div className="mr-auto ml-auto w-full 2x1:max-w-[1510px] xl:max-w-[1220px] lg:max-w-[984px] md:max-w-[720px] sm:max-w-[640px]">
+    {/* <div className="mr-auto ml-auto w-full 2x1:max-w-[1510px] xl:max-w-[1220px] lg:max-w-[984px] md:max-w-[500px]"> */}
       <Navbar />
-      {/* <Header/>
-      <HeaderM/> */}
+      <Header/>
+      <HeaderM/>
       <About />
       <AboutM />
       <Couple />
       <CoupleM />
-      {/* <Abays />
-      <AbaysM /> */}
+      <Abays />
+      <AbaysM />
     </div>
     </ObserverProvider>
     </>
