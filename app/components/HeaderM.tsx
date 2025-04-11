@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 const HeaderM = () => {
   return (
-    <section className='mb-0 pr-0 h-auto pt-0 min-h-[100vh] pb-[10rem] relative ml-0 mr-0 mt-15 justify-center flex flex-wrap box-border lg:hidden md:hidden'>
-        <div className='top-[5rem] h-auto min-h-[100vh] z-1 pr-0 pl-0 relative w-full box-border block'>
+    <section id='top' className='pb-[10rem] relative mt-15 justify-center flex flex-wrap box-border lg:hidden md:hidden'>
+        <div className='top-[5rem] h-auto z-1 pr-0 pl-0 relative w-full box-border block'>
             {/* HEADER 1 */}
             <div className='relative flex flex-wrap justify-self-end mb-[92px] w-[95%] box-border h-auto min-h-[20rem] motion-preset-slide-left motion-duration-1000'>
                 {/* IMAGE 1 */}
