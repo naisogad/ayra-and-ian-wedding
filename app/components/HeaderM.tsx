@@ -5,7 +5,7 @@ import Image from 'next/image'
 const HeaderM = () => {
   return (
     <section id='top' className='pb-[10rem] relative mt-15 justify-center flex flex-wrap box-border lg:hidden md:hidden'>
-        <div className='top-[5rem] h-auto z-1 pr-0 pl-0 relative w-full box-border block'>
+        <div className='top-[5rem] h-auto z-1 pr-0 pl-0 relative w-screen box-border block'>
             {/* HEADER 1 */}
             <div className='relative flex flex-wrap justify-self-end mb-[92px] w-[95%] box-border h-auto min-h-[20rem] motion-preset-slide-left motion-duration-1000'>
                 {/* IMAGE 1 */}
@@ -17,7 +17,7 @@ const HeaderM = () => {
                 />
             </div>
             {/* DATE */}
-            <div className='relative w-full mt-[5rem] box-border block break-words text-right motion-preset-slide-right motion-duration-1000'>
+            <div className='relative w-screen mt-[5rem] box-border block break-words text-right motion-preset-slide-right motion-duration-1000'>
                 <p className='top-[75px] left-[-55px] block text-[1.4rem] text-moss transform -rotate-90 absolute overflow-hidden z-2 mt-0 mb-[1rem]
                 space-y-[1em] space-x-[0px] break-words text-right'>November 28, 2025</p>
             </div>
