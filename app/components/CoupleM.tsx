@@ -3,7 +3,7 @@ import React from 'react'
 
 const CoupleM = () => {
   return (
-    <section id='coupleM' className='min-h-[503px] pt-[3.5rem] pr-[0.5rem] pb-[3.5rem] relative justify-center flex flex-wrap box-border mt-[8rem] lg:hidden md:hidden'>\
+    <section id='coupleM' className='min-h-[503px] pt-[3.5rem] pb-[3.5rem] relative justify-center flex flex-wrap box-border mt-[8rem] z-0 lg:hidden md:hidden'>\
         {/* FLOWER */}
         <div className='w-[13rem] h-[12rem] top-[-3%] left-[1%] rotate-275 absolute z-1 pointer-events-none box-border block intersect-once intersect:motion-preset-slide-down motion-duration-1000'>
             <Image 
@@ -14,7 +14,7 @@ const CoupleM = () => {
             />
         </div>
         {/* TITLE */}
-        <div className='absolute top-0 left-0 z-1 box-border block'>
+        <div className='absolute top-0 left-0 z-0 box-border block'>
             <h2 className='-rotate-90 text-moss absolute whitespace-nowrap text-ellipsis z-2 pb-[0.5rem] top-[17rem] left-[-8.5rem] text-[4rem] leading-[0.9] intersect-once intersect:motion-preset-slide-up motion-duration-1000'>The Couple</h2>
         </div>
         {/* IMAGES CONTAINER */}
