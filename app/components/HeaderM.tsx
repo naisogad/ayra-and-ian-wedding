@@ -7,7 +7,7 @@ const HeaderM = () => {
     <section className='mb-0 pr-0 h-auto pt-0 min-h-[100vh] pb-[10rem] relative ml-0 mr-0 mt-15 justify-center flex flex-wrap box-border lg:hidden md:hidden'>
         <div className='top-[5rem] h-auto min-h-[100vh] z-1 pr-0 pl-0 relative w-full box-border block'>
             {/* HEADER 1 */}
-            <div className='relative mb-[92px] w-[100%] box-border block h-auto min-h-[20rem] motion-preset-slide-left motion-duration-1000'>
+            <div className='relative flex flex-wrap justify-self-end mb-[92px] w-[95%] box-border h-auto min-h-[20rem] motion-preset-slide-left motion-duration-1000'>
                 {/* IMAGE 1 */}
                 <Image
                     alt=''
@@ -31,7 +31,7 @@ const HeaderM = () => {
                 />
             </div>
             {/* FLOWER 1 */}
-            <div className='w-[11rem] h-[14rem] bottom-[-5%] left-[55%] absolute z-1 box-border motion-preset-slide-up motion-duration-1000'>
+            <div className='w-[11rem] h-[14rem] bottom-[10%] left-[55%] relative z-1 box-border motion-preset-slide-up motion-duration-1000'>
                 <Image 
                     alt=''
                     src={'/flowers/floater_1.png'}
