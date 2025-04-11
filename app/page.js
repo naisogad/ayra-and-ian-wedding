@@ -12,6 +12,7 @@ import CoupleM from "./components/CoupleM";
 import Abays from "./components/Abays";
 import AbaysM from "./components/AbaysM";
 import Link from 'next/link';
+import ScheduleM from "./components/ScheduleM";
 
 
 export default function Home() {
@@ -62,6 +63,7 @@ export default function Home() {
       <CoupleM />
       <Abays />
       <AbaysM />
+      <ScheduleM />
     </div>
     </ObserverProvider>
     </>

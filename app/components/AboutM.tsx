@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutM = () => {
   return (
-    <section className='pt-[3.5rem] pb-[3.5rem] pr-[0.5rem] relative flex flex-wrap box-border lg:hidden md:hidden'>
+    <section className='pt-[4rem] pb-[4rem] pr-[0.5rem] relative flex flex-wrap box-border lg:hidden md:hidden'>
         {/* WELCOME */}
         <div className='absolute top-35 left-[-6rem] z-1 box-border block'>
             <h2 className='text-moss absolute -rotate-90 m-0 whitespace-nowrap z-2 text-ellipsis pb-[0.5rem] top-[6rem] text-[4rem] leading-[0.9] text-right box-border block intersect-once intersect:motion-preset-slide-up motion-duration-1000'>Welcome</h2>

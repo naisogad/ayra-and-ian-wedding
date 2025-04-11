@@ -25,9 +25,9 @@ const AbaysM = () => {
   };
 
   return (
-    <section id='abaysM' className='flex min-h-[600px] pt-[8rem] pr-[0.5rem] pb-[3.5rem] relative justify-center flex-wrap box-border lg:hidden md:hidden'>
+    <section className='flex min-h-[600px] pt-[12rem] pr-[0.5rem] pb-[4rem] relative justify-center flex-wrap box-border lg:hidden md:hidden'>
         {/* FLOWER 1 */}
-        <div className='w-[18rem] h-[14rem] top-[0%] left-[26%] relative z-1 pointer-events-none box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
+        <div className='w-[18rem] h-[14rem] top-[2%] left-[30%] absolute z-1 pointer-events-none box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
             <Image 
                 alt=''
                 src={'/flowers/floater_3.png'}
@@ -37,10 +37,10 @@ const AbaysM = () => {
         </div>
         {/* TITLE */}
         <div className='absolute top-0 left-0 z-0 box-border block intersect-once intersect:motion-preset-slide-up motion-duration-1000'>
-            <h2 className='text-moss -rotate-90 absolute m-0 whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[35rem] left-[-11.95rem] overflow-auto text-[4rem] leading-[0.9]'>Wedding Abays</h2>
+            <h2 className='text-moss -rotate-90 absolute m-0 whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[30rem] left-[-11.95rem] overflow-auto text-[4rem] leading-[0.9]'>Wedding Abays</h2>
         </div>
         {/* CONTENT */}
-        <div className='z-0 pr-0 pl-0 ml-auto grow-0 shrink-0 basis-[70%] max-w-[70%] relative w-[100%] min-h-[1px] box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
+        <div id='abaysM' className='z-0 pr-0 pl-0 ml-auto grow-0 shrink-0 basis-[70%] max-w-[70%] relative w-[100%] min-h-[1px] box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
             <div className='ml-0 mr-0 justify-end flex flex-wrap box-border'>
                 <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pt-[3rem] box-border block bg-amber-50'>
                     {/* ROW */}
