@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className='flex top-0 right-0 z-2'>
+      <div className='top-0 right-0 z-3'>
         {/* MENU BUTTON*/}
         <h4 className='hidden md:block fixed rotate-90 top-[4rem] right-[0rem] z-3 cursor-pointer text-3xl uppercase text-moss' onClick={toggleNav}>Menu</h4>
         {/* MOBILE BUTTON */}
