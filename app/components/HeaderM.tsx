@@ -18,7 +18,7 @@ const HeaderM = () => {
             </div>
             {/* DATE */}
             <div className='relative w-screen mt-[5rem] box-border block break-words text-right motion-preset-slide-right motion-duration-1000'>
-                <p className='top-[75px] left-[-55px] block text-[1.4rem] text-moss transform -rotate-90 absolute overflow-hidden z-2 mt-0 mb-[1rem]
+                <p className='top-[75px] left-[-55px] block text-[1.4rem] text-moss transform -rotate-90 absolute z-2 mt-0 mb-[1rem]
                 space-y-[1em] space-x-[0px] break-words text-right'>November 28, 2025</p>
             </div>
             {/* IMAGE 2 */}
