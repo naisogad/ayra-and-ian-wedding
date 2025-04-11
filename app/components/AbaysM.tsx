@@ -89,9 +89,9 @@ const AbaysM = () => {
             </div>
         </div>
         {/* ABAY DETAILS */}
-        <div className={`${toggleMenu? '': 'hidden'} z-2 md:hidden size-full fixed top-0 right-0 m-0 bg-white overflow-y-scroll`}>
+        <div className={`${toggleMenu? '': 'hidden'} z-4 md:hidden size-full fixed top-0 right-0 m-0 bg-white overflow-y-scroll`}>
             {/* CLOSE BUTTON */}
-            <button className='space-y-1 fixed top-[2%] right-[3%] z-3 md:hidden' onClick={toggleNav}>
+            <button className='space-y-1 fixed top-[2%] right-[3%] z-5 md:hidden' onClick={toggleNav}>
                 <span className={`block h-1 w-7 bg-moss ${toggleMenu? 'rotate-45 translate-y-3': ''}`}></span>
                 <span className={`block h-1 w-7 bg-moss ${toggleMenu? 'scale-0 opacity-0': ''}`}></span>
                 <span className={`block h-1 w-7 bg-moss ${toggleMenu? '-rotate-45 -translate-y-1': ''}`}></span>
