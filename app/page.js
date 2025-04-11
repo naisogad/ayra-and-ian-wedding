@@ -16,44 +16,42 @@ import Link from 'next/link';
 
 export default function Home() {
 
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 2000); // 2000 milliseconds = 2 seconds
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setLoading(false);
+  //   }, 2000);
 
-    // Clean up the timer if the component unmounts before the delay
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
-  if (loading) {
-    return (
-      <div style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '100vh',
-        fontSize: '1.2rem',
-        flexDirection: 'column',
-        gap: '4px'
-        // fontWeight: 'bold',
-      }}
-      >
-        <p className="text-moss gap-1">Loading...</p>
-        <BarLoader 
-          color="#527d39" 
-          height={3} 
-          width={200}
-        />
-      </div>
-    );
-  }
+  // if (loading) {
+  //   return (
+  //     <div style={{
+  //       display: 'flex',
+  //       justifyContent: 'center',
+  //       alignItems: 'center',
+  //       height: '100vh',
+  //       fontSize: '1.2rem',
+  //       flexDirection: 'column',
+  //       gap: '4px'
+  //     }}
+  //     >
+  //       <p className="text-moss gap-1">Loading...</p>
+  //       <BarLoader 
+  //         color="#527d39" 
+  //         height={3} 
+  //         width={200}
+  //       />
+  //     </div>
+  //   );
+  // }
 
   return (
     <>
     <ObserverProvider>
-    <div className="mr-auto ml-auto w-full xl:max-w-[1220px] lg:max-w-[984px] md:max-w-[984px] sm:max-w-[500px]">
+    {/* <div className="mr-auto ml-auto w-full xl:max-w-[1220px] lg:max-w-[984px] md:max-w-[984px] sm:max-w-[500px]"> */}
       <Navbar />
       <Header/>
       <HeaderM/>
@@ -63,7 +61,7 @@ export default function Home() {
       <CoupleM />
       <Abays />
       <AbaysM />
-    </div>
+    {/* </div> */}
     </ObserverProvider>
     </>
   );
