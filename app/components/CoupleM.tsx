@@ -18,10 +18,10 @@ const CoupleM = () => {
             <h2 className='-rotate-90 text-moss absolute whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[17rem] left-[-8.5rem] text-[4rem] leading-[0.9] intersect-once intersect:motion-preset-slide-up motion-duration-1000'>The Couple</h2>
         </div>
         {/* IMAGES CONTAINER */}
-        <div className='z-0 ml-auto grow-0 shrink-0 basis-[75%] max-w-[75%] min-h-[1px] box-border block'>
+        <div className='z-0 ml-auto grow-0 shrink-0 basis-[75%] max-w-[75%] min-h-[1px] box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
           <div className='justify-end flex flex-wrap box-border'>
             {/* IMAGE COLUMN */}
-            <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pl-[15px] pr-[15px] box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
+            <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pl-[15px] pr-[15px] box-border block'>
               <div className='flex flex-wrap box-border'>
                 {/* IMAGE 1 */}
                 <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[30rem] pl-[15px] pr-[15px] box-border block'>

@@ -138,6 +138,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-1.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 1 DETAILS */}
@@ -153,6 +154,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-2.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 2 DETAILS */}
@@ -168,6 +170,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-3.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 3 DETAILS */}
@@ -183,6 +186,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-4.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 4 DETAILS */}
@@ -203,6 +207,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-5.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 1 DETAILS */}
@@ -218,6 +223,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-6.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 2 DETAILS */}
@@ -233,6 +239,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-7.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 3 DETAILS */}
@@ -248,6 +255,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-8.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 4 DETAILS */}
@@ -268,6 +276,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-20.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 1 DETAILS */}
@@ -283,6 +292,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-21.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 2 DETAILS */}
@@ -298,6 +308,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-22.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 3 DETAILS */}
@@ -313,6 +324,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-23.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 4 DETAILS */}
@@ -333,6 +345,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-16.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 1 DETAILS */}
@@ -348,6 +361,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-17.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 2 DETAILS */}
@@ -363,6 +377,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-18.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 3 DETAILS */}
@@ -378,6 +393,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-19.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 4 DETAILS */}
@@ -398,6 +414,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-13.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 1 DETAILS */}
@@ -413,6 +430,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-14.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 2 DETAILS */}
@@ -428,6 +446,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-15.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 3 DETAILS */}
@@ -443,6 +462,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-24.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 4 DETAILS */}
@@ -463,6 +483,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-9.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 1 DETAILS */}
@@ -478,6 +499,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-12.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 2 DETAILS */}
@@ -493,6 +515,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-10.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 3 DETAILS */}
@@ -508,6 +531,7 @@ const AbaysM = () => {
                                     src={'/pictures/abays/a-photo-11.jpg'}
                                     fill
                                     className='object-cover'
+                                    loading='eager'
                                 />
                             </div>
                             {/* ITEM 4 DETAILS */}

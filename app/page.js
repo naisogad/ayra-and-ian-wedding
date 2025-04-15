@@ -13,6 +13,7 @@ import Abays from "./components/Abays";
 import AbaysM from "./components/AbaysM";
 import Link from 'next/link';
 import ScheduleM from "./components/ScheduleM";
+import DresscodeM from "./components/DresscodeM";
 
 
 export default function Home() {
@@ -64,6 +65,7 @@ export default function Home() {
       <Abays />
       <AbaysM />
       <ScheduleM />
+      <DresscodeM />
     </div>
     </ObserverProvider>
     </>
