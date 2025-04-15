@@ -54,7 +54,7 @@ const ScheduleM = () => {
                             </div>
                             <div className='box-border block text-right'>
                             <p className='text-moss text-[1.2rem]'>Sunday, November 28 <br /> 6:00 pm</p>
-                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('bridesmaids')} className='text-moss text-[1.9rem] leading-[1] box-border'>
+                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('rc')} className='text-moss text-[1.9rem] leading-[1] box-border'>
                                     Reception
                                     <p className='text-moss text-[1.125rem] leading-[1.7] break-normal overflow-hidden relative z-2 mt-0 mb-[2.5rem] block font-medium'>+ View Details</p>
                                 </a>
