@@ -37,7 +37,7 @@ const AbaysM = () => {
         </div>
         {/* TITLE */}
         <div className='absolute top-0 left-0 z-0 box-border block intersect-once intersect:motion-preset-slide-up motion-duration-1000'>
-            <h2 className='text-moss -rotate-90 absolute m-0 whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[30rem] left-[-11.95rem] overflow-auto text-[4rem] leading-[0.9]'>Wedding Abays</h2>
+            <h2 className='text-moss -rotate-90 absolute m-0 whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[30rem] left-[-11.5rem] overflow-auto text-[4rem] leading-[0.9]'>Wedding Abays</h2>
         </div>
         {/* CONTENT */}
         <div id='abaysM' className='z-0 pr-0 pl-0 ml-auto grow-0 shrink-0 basis-[70%] max-w-[70%] relative w-[100%] min-h-[1px] box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
@@ -101,8 +101,16 @@ const AbaysM = () => {
                 <div className='relative z-1 h-[4.3rem] flex items-center justify-between p-[15px box-border]'>
                     <h1 className='text-moss text-[2.5rem] pt-[50px] ml-[15px] font-medium'>Wedding Abays</h1>
                 </div>
+                <div className='w-[10rem] h-[8rem] top-[2%] left-[65%] rotate-10 absolute z-1 pointer-events-none box-border block'>
+                    <Image 
+                        alt=''
+                        src={'/flowers/floater_3.png'}
+                        fill
+                        className='object-cover'
+                    />
+                </div>
                 {/* CONTENT */}
-                <div className='pt-[40px] relative grow-1 shrink-1 basis-auto p-[15px] box-border block'>
+                <div className='pt-[4rem] relative grow-1 shrink-1 basis-auto p-[15px] box-border block'>
                     {/* NAV */}
                     <div className='mr-0 ml-0 justify-center flex flex-wrap box-border pb-[40px]'>
                         <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
