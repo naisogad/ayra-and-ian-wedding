@@ -25,7 +25,7 @@ const DresscodeM = () => {
                         <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pl-[15px] pr-[15px] box-border block'>
                             {/* TITLE */}
                             <div className='box-border block pl-[15px] pr-[15px]'>
-                                <h3 className='text-moss text-[2.2rem] text-center'>Dress Code</h3>
+                                <a className='text-moss text-[2rem] leading-[1] text-center'>Dress Code</a>
                             </div>
                             {/* IMAGE */}
                             <div className='w-[100%] h-[15rem] relative z-1 pointer-events-none box-border block intersect-once'>
@@ -42,7 +42,7 @@ const DresscodeM = () => {
                             </div>
                             {/* TITLE */}
                             <div className='box-border block pl-[15px] pr-[15px]'>
-                                <h3 className='text-moss text-[2.2rem] text-center'>Color Motif</h3>
+                                <h3 className='text-moss text-[2rem] leading-[1] text-center'>Color Motif</h3>
                             </div>
                             {/* COLORS */}
                             <div className='flex flex-wrap justify-center gap-[1.1rem] text-center mt-[1.5rem] mb-[3rem]'>
