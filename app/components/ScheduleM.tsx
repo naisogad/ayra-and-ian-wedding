@@ -93,6 +93,7 @@ const ScheduleM = () => {
                         <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
                             <a onClick={() => handleNavigation('ps')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Preparation</a>
                             <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
+                            <br />
                             <a onClick={() => handleNavigation('ss')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Ceremony</a>
                             <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
                             <a onClick={() => handleNavigation('rc')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Reception</a>
@@ -102,7 +103,7 @@ const ScheduleM = () => {
                     {/* ITEMS */}
                     {/* PREPARATION SCHEDULE */}
                     {activeSection === 'ps' && (
-                        <div className='ml-0 mr-0 justify-center flex flex-wrap box-border'>
+                        <div className='ml-0 mr-0 justify-center flex flex-wrap box-border overflow-x-hidden'>
                             <div className='z-1 grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
                                 <div className='flex flex-wrap mr-[-15px] ml-[-15px] box-border'>
                                     {/* DATE */}
