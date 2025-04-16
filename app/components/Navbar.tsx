@@ -34,23 +34,26 @@ const Navbar = () => {
         {/* NAV MENU */}
         <div className={`${toggleMenu? '': '-mr-480'} z-2 hidden md:block size-full fixed top-0 right-0 m-0 bg-white/70 transition-all duration-400 ease-[cubic-bezier(0.77, 0.2, 0.05, 1)]`}>
           <ul className={`${toggleMenu? 'mr-25': '-mr-90 '} hidden md:flex flex-col relative gap-6 w-80 max-h-89 mt-20 pb-100 pt-10 pl-10 float-right bg-stain transition-all duration-400 ease-[cubic-bezier(0.77, 0.2, 0.05, 1)]`}>
-            <li><a className='text-3xl text-moss' onClick={toggleNav} href="#top">Home</a></li>
-            <li><a className='text-3xl text-moss' onClick={toggleNav} href="#couple">The Couple</a></li>
-            <li><a className='text-3xl text-moss' onClick={toggleNav} href="#details">Details</a></li>
-            <li><a className='text-3xl text-moss' onClick={toggleNav} href="#gallery">Gallery</a></li>
-            <li><a className='text-3xl text-moss' onClick={toggleNav} href="#faqs">FAQs</a></li>
-            <li><a className='text-3xl text-moss' onClick={toggleNav} href="#rsvp">RSVP</a></li>
+            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#top">Home</a></li>
+            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#couple">The Couple</a></li>
+            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#abays">Abays</a></li>
+            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#schedule">Schedule</a></li>
+            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#theme">Theme</a></li>
+            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#faqs">FAQs</a></li>
+            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#rsvp">RSVP</a></li>
           </ul>
         </div>
       {/* MOBILE MENU */}
         <div className={`${toggleMenu? '': '-mr-480'} z-2 md:hidden size-full fixed top-0 right-0 m-0 transition-all duration-400 ease-[cubic-bezier(0.77, 0.2, 0.05, 1)] bg-white/70`}>
           <ul className={`${toggleMenu? '': '-ml-225'} z-2 md:hidden flex flex-col fixed gap-6 w-200 h-[100%] mt-15 pb-10 pt-10 pl-5 float-left bg-stain transition-all duration-400 ease-[cubic-bezier(0.77, 0.2, 0.05, 1)]`}>
-            <li><a className='text-3xl text-moss' onClick={toggleNav} href="#top">Home</a></li>
-            <li><a className='text-3xl text-moss' onClick={toggleNav} href="#coupleM">The Couple</a></li>
-            <li><a className='text-3xl text-moss' onClick={toggleNav} href="#abaysM">Details</a></li>
-            <li><a className='text-3xl text-moss' onClick={toggleNav} href="#galleryM">Gallery</a></li>
-            <li><a className='text-3xl text-moss' onClick={toggleNav} href="#faqsM">FAQs</a></li>
-            <li><a className='text-3xl text-moss' onClick={toggleNav} href="#rsvpM">RSVP</a></li>
+            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#top">Home</a></li>
+            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#coupleM">The Couple</a></li>
+            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#abaysM">Abays</a></li>
+            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#scheduleM">Schedule</a></li>
+            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#themeM">Theme</a></li>
+            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#galleryM">Gallery</a></li>
+            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#faqsM">FAQs</a></li>
+            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#rsvpM">RSVP</a></li>
           </ul>
         </div>
       </div>

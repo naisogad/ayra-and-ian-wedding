@@ -25,7 +25,7 @@ const ScheduleM = () => {
   };
 
   return (
-    <section className='flex min-h-[600px] pt-[4rem] pr-[0.5rem] pb-[4rem] relative justify-center flex-wrap box-border lg:hidden md:hidden'>
+    <section id='scheduleM' className='flex min-h-[600px] pt-[4rem] pr-[0.5rem] pb-[4rem] relative justify-center flex-wrap box-border lg:hidden md:hidden'>
         {/* TITLE */}
         <div className='absolute top-0 left-0 z-0 box-border block intersect-once intersect:motion-preset-slide-up motion-duration-1000'>
             <h2 className='text-moss -rotate-90 absolute m-0 whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[16rem] left-[-6rem] overflow-auto text-[4rem] leading-[0.9]'>Schedule</h2>
@@ -40,21 +40,21 @@ const ScheduleM = () => {
                             {/* LIST */}
                             <div className='box-border block text-right'>
                                 <p className='text-moss text-[1.2rem]'>Sunday, November 28 <br /> 9:00 am</p>
-                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('ps')} className='text-moss text-[1.9rem] leading-[1] box-border\'>
+                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('ps')} className='text-moss text-[1.9rem] leading-[1] box-border hover:underline'>
                                     Preparation
                                     <p className='text-moss text-[1.125rem] leading-[1.7] break-normal overflow-hidden relative z-2 mt-0 mb-[2.5rem] block font-medium'>+ View Details</p>
                                 </a>
                             </div>
                             <div className='box-border block text-right'>
                             <p className='text-moss text-[1.2rem]'>Sunday, November 28 <br /> 4:00 pm</p>
-                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('ss')} className='text-moss text-[1.9rem] leading-[1] box-border'>
+                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('ss')} className='text-moss text-[1.9rem] leading-[1] box-border hover:underline'>
                                     Ceremony
                                     <p className='text-moss text-[1.125rem] leading-[1.7] break-normal overflow-hidden relative z-2 mt-0 mb-[2.5rem] block font-medium'>+ View Details</p>
                                 </a>
                             </div>
                             <div className='box-border block text-right'>
                             <p className='text-moss text-[1.2rem]'>Sunday, November 28 <br /> 6:00 pm</p>
-                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('rc')} className='text-moss text-[1.9rem] leading-[1] box-border'>
+                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('rc')} className='text-moss text-[1.9rem] leading-[1] box-border hover:underline'>
                                     Reception
                                     <p className='text-moss text-[1.125rem] leading-[1.7] break-normal overflow-hidden relative z-2 mt-0 mb-[2.5rem] block font-medium'>+ View Details</p>
                                 </a>
@@ -91,11 +91,11 @@ const ScheduleM = () => {
                     {/* NAV */}
                     <div className='mr-0 ml-0 justify-center flex flex-wrap box-border pb-[30px]'>
                         <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
-                            <a onClick={() => handleNavigation('ps')} className='text-[1.7rem] leading-[1.5] font-medium'>Preparation</a>
+                            <a onClick={() => handleNavigation('ps')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Preparation</a>
                             <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
-                            <a onClick={() => handleNavigation('ss')} className='text-[1.7rem] leading-[1.5] font-medium'>Ceremony</a>
+                            <a onClick={() => handleNavigation('ss')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Ceremony</a>
                             <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
-                            <a onClick={() => handleNavigation('rc')} className='text-[1.7rem] leading-[1.5] font-medium'>Reception</a>
+                            <a onClick={() => handleNavigation('rc')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Reception</a>
                             <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
                         </div>
                     </div>
@@ -192,6 +192,50 @@ const ScheduleM = () => {
                                     </div>
                                 </div>
                             </div>
+                            {/* WHERE */}
+                            <h1 className='text-moss text-[2.5rem] font-medium w-full pt-3 pb-3'>Where</h1>
+                            <div className='ml-0 mr-0 justify-center flex flex-wrap box-border'>
+                                {/* LOCATION IMAGE */}
+                                <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[18.5rem] pr-[15px] pl-[15px] box-border block'>
+                                    <Image 
+                                        alt=''
+                                        src={'/pictures/gp-prep-1.jpg'}
+                                        fill
+                                        className='object-cover'
+                                        loading='eager'
+                                    />
+                                </div>
+                                {/* LOCATION DETAILS */}
+                                <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-screen min-h-[1px] mr-[-15px] ml-[-15px] box-border block'>
+                                    <div className='pl-[15px] pr-[15px]'>
+                                        <h3 className='text-[2rem] mt-[0.75rem] mb-[0.75rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2'>GP Suites</h3>
+                                        <a href='https://www.facebook.com/gpsuitesandeventsplace?mibextid=wwXIfr&rdid=x5EJJd0lD2c2iccN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19u6wdbRfn%2F%3Fmibextid%3DwwXIfr#' className='text-[1.125rem] leading-[1.2] overflow-hidden relative box-border block font-georgia hover:underline'>GP Suites Facebook Page</a>
+                                        <p className='text-[1.125rem] leading-[1.2] mb-3 overflow-hidden relative box-border block'>09150922326</p>
+                                    <p className='text-[1.125rem] leading-[1.2] overflow-hidden relative mt-0 mb-[1rem] box-border block'>Greener Pastures, Main Ave, <br/>Sariaya, Quezon</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* MAP */}
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d814.0751945026327!2d121.46153672697085!3d13.933815191774528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd49cb80d4e9d5%3A0x9ddfb10f5d78e0b7!2sGP%20SUITES!5e0!3m2!1sen!2sph!4v1744793361235!5m2!1sen!2sph" width="600" height="450"  loading="lazy">
+                            </iframe>
+                            <div className='ml-0 mr-0 justify-center flex flex-wrap bg-amber-50 box-border'>
+                                {/* QR DETAILS */}
+                                <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-screen min-h-[1px] mr-[-15px] ml-[-15px] box-border block'>
+                                    <div className='pl-[15px] pr-[15px]'>
+                                        <h3 className='text-[2rem] mt-[1.5rem] mb-[1.5rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2'>QR Code</h3>
+                                    </div>
+                                </div>
+                                {/* QR IMAGE */}
+                                <div className='grow-0 shrink-0 basis-[80%] max-w-[80%] relative w-[100%] min-h-[1rem] h-[18rem] mb-[3rem] box-border block'>
+                                    <Image 
+                                        alt=''
+                                        src={'/pictures/gps-qr.png'}
+                                        fill
+                                        className='object-cover'
+                                        loading='eager'
+                                    />
+                                </div>
+                            </div>
                         </div>
                     )}
                     {/* CEREMONY SCHEDULE */}
@@ -229,6 +273,49 @@ const ScheduleM = () => {
                                             <p className='text-[1.125rem] leading-[1.5] mb-[0.5rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            {/* WHERE */}
+                            <h1 className='text-moss text-[2.5rem] font-medium w-full pt-3 pb-3'>Where</h1>
+                            <div className='ml-0 mr-0 justify-center flex flex-wrap box-border'>
+                                {/* LOCATION IMAGE */}
+                                <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[18.5rem] pr-[15px] pl-[15px] box-border block'>
+                                    <Image 
+                                        alt=''
+                                        src={'/pictures/gp-ceremony-2.jpg'}
+                                        fill
+                                        className='object-cover'
+                                        loading='eager'
+                                    />
+                                </div>
+                                {/* LOCATION DETAILS */}
+                                <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-screen min-h-[1px] mr-[-15px] ml-[-15px] box-border block'>
+                                    <div className='pl-[15px] pr-[15px]'>
+                                        <h3 className='text-[2rem] mt-[0.75rem] mb-[0.75rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2'>GP Events Place</h3>
+                                        <a href='https://www.facebook.com/gpsuitesandeventsplace?mibextid=wwXIfr&rdid=x5EJJd0lD2c2iccN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19u6wdbRfn%2F%3Fmibextid%3DwwXIfr#' className='text-[1.125rem] leading-[1.2] overflow-hidden relative box-border block font-georgia hover:underline'>GP Suites Facebook Page</a>
+                                        <p className='text-[1.125rem] leading-[1.2] mb-3 overflow-hidden relative box-border block'>09150922326</p>
+                                    <p className='text-[1.125rem] leading-[1.2] overflow-hidden relative mt-0 mb-[1rem] box-border block'>Greener Pastures, Main Ave, <br/>Sariaya, Quezon</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* MAP */}
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d814.0751945026327!2d121.46153672697085!3d13.933815191774528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd4891f3a3b319%3A0xa47782049fa77391!2sGP%20Events%20Place!5e0!3m2!1sen!2sph!4v1744794439866!5m2!1sen!2sph" width="600" height="450" loading="lazy"></iframe>
+                            <div className='ml-0 mr-0 justify-center flex flex-wrap bg-amber-50 box-border'>
+                                {/* QR DETAILS */}
+                                <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-screen min-h-[1px] mr-[-15px] ml-[-15px] box-border block'>
+                                    <div className='pl-[15px] pr-[15px]'>
+                                        <h3 className='text-[2rem] mt-[1.5rem] mb-[1.5rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2'>QR Code</h3>
+                                    </div>
+                                </div>
+                                {/* QR IMAGE */}
+                                <div className='grow-0 shrink-0 basis-[80%] max-w-[80%] relative w-[100%] min-h-[1rem] h-[18rem] mb-[3rem] box-border block'>
+                                    <Image 
+                                        alt=''
+                                        src={'/pictures/gpep-qr.png'}
+                                        fill
+                                        className='object-cover'
+                                        loading='eager'
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -312,6 +399,49 @@ const ScheduleM = () => {
                                             <p className='text-[1.125rem] leading-[1.5] mb-[0.5rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            {/* WHERE */}
+                            <h1 className='text-moss text-[2.5rem] font-medium w-full pt-3 pb-3'>Where</h1>
+                            <div className='ml-0 mr-0 justify-center flex flex-wrap box-border'>
+                                {/* LOCATION IMAGE */}
+                                <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[18.5rem] pr-[15px] pl-[15px] box-border block'>
+                                    <Image 
+                                        alt=''
+                                        src={'/pictures/gp-reception-1.jpg'}
+                                        fill
+                                        className='object-cover'
+                                        loading='eager'
+                                    />
+                                </div>
+                                {/* LOCATION DETAILS */}
+                                <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-screen min-h-[1px] mr-[-15px] ml-[-15px] box-border block'>
+                                    <div className='pl-[15px] pr-[15px]'>
+                                        <h3 className='text-[2rem] mt-[0.75rem] mb-[0.75rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2'>GP Events Place</h3>
+                                        <a href='https://www.facebook.com/gpsuitesandeventsplace?mibextid=wwXIfr&rdid=x5EJJd0lD2c2iccN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19u6wdbRfn%2F%3Fmibextid%3DwwXIfr#' className='text-[1.125rem] leading-[1.2] overflow-hidden relative box-border block font-georgia hover:underline'>GP Suites Facebook Page</a>
+                                        <p className='text-[1.125rem] leading-[1.2] mb-3 overflow-hidden relative box-border block'>09150922326</p>
+                                    <p className='text-[1.125rem] leading-[1.2] overflow-hidden relative mt-0 mb-[1rem] box-border block'>Greener Pastures, Main Ave, <br/>Sariaya, Quezon</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* MAP */}
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d814.0751945026327!2d121.46153672697085!3d13.933815191774528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd4891f3a3b319%3A0xa47782049fa77391!2sGP%20Events%20Place!5e0!3m2!1sen!2sph!4v1744794439866!5m2!1sen!2sph" width="600" height="450" loading="lazy"></iframe>
+                            <div className='ml-0 mr-0 justify-center flex flex-wrap bg-amber-50 box-border'>
+                                {/* QR DETAILS */}
+                                <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-screen min-h-[1px] mr-[-15px] ml-[-15px] box-border block'>
+                                    <div className='pl-[15px] pr-[15px]'>
+                                        <h3 className='text-[2rem] mt-[1.5rem] mb-[1.5rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2'>QR Code</h3>
+                                    </div>
+                                </div>
+                                {/* QR IMAGE */}
+                                <div className='grow-0 shrink-0 basis-[80%] max-w-[80%] relative w-[100%] min-h-[1rem] h-[18rem] mb-[3rem] box-border block'>
+                                    <Image 
+                                        alt=''
+                                        src={'/pictures/gpep-qr.png'}
+                                        fill
+                                        className='object-cover'
+                                        loading='eager'
+                                    />
                                 </div>
                             </div>
                         </div>

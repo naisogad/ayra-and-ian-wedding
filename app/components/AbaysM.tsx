@@ -25,7 +25,7 @@ const AbaysM = () => {
   };
 
   return (
-    <section className='flex min-h-[600px] pt-[12rem] pr-[0.5rem] pb-[4rem] relative justify-center flex-wrap box-border lg:hidden md:hidden'>
+    <section id='abaysM' className='flex min-h-[600px] pt-[12rem] pr-[0.5rem] pb-[4rem] relative justify-center flex-wrap box-border lg:hidden md:hidden'>
         {/* FLOWER 1 */}
         <div className='w-[18rem] h-[14rem] top-[2%] left-[30%] absolute z-1 pointer-events-none box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
             <Image 
@@ -48,37 +48,37 @@ const AbaysM = () => {
                         <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pl-[15px] pr-[15px] box-border block'>
                             {/* LIST */}
                             <div className='box-border block text-right'>
-                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('ps')} className='text-moss text-[1.9rem] leading-[1] box-border\'>
+                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('ps')} className='text-moss text-[1.9rem] leading-[1] box-border hover:underline'>
                                     Primary Sponsors
                                     <p className='text-moss text-[1.125rem] leading-[1.7] break-normal overflow-hidden relative z-2 mt-0 mb-[2.5rem] block font-medium'>+ View Details</p>
                                 </a>
                             </div>
                             <div className='box-border block text-right'>
-                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('ss')} className='text-moss text-[1.9rem] leading-[1] box-border'>
+                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('ss')} className='text-moss text-[1.9rem] leading-[1] box-border hover:underline'>
                                     Secondary Sponsors
                                     <p className='text-moss text-[1.125rem] leading-[1.7] break-normal overflow-hidden relative z-2 mt-0 mb-[2.5rem] block font-medium'>+ View Details</p>
                                 </a>
                             </div>
                             <div className='box-border block text-right'>
-                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('bridesmaids')} className='text-moss text-[1.9rem] leading-[1] box-border'>
+                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('bridesmaids')} className='text-moss text-[1.9rem] leading-[1] box-border hover:underline'>
                                     Bridesmaid
                                     <p className='text-moss text-[1.125rem] leading-[1.7] break-normal overflow-hidden relative z-2 mt-0 mb-[2.5rem] block font-medium'>+ View Details</p>
                                 </a>
                             </div>
                             <div className='box-border block text-right'>
-                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('groomsmen')} className='text-moss text-[1.9rem] leading-[1] box-border'>
+                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('groomsmen')} className='text-moss text-[1.9rem] leading-[1] box-border hover:underline'>
                                     Groomsmen
                                     <p className='text-moss text-[1.125rem] leading-[1.7] break-normal overflow-hidden relative z-2 mt-0 mb-[2.5rem] block font-medium'>+ View Details</p>
                                 </a>
                             </div>
                             <div className='box-border block text-right'>
-                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('bearers')} className='text-moss text-[1.9rem] leading-[1] box-border'>
+                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('bearers')} className='text-moss text-[1.9rem] leading-[1] box-border hover:underline'>
                                     Bearers
                                     <p className='text-moss text-[1.125rem] leading-[1.7] break-normal overflow-hidden relative z-2 mt-0 mb-[2.5rem] block font-medium'>+ View Details</p>
                                 </a>
                             </div>
                             <div className='box-border block text-right'>
-                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('parents')} className='text-moss text-[1.9rem] leading-[1] box-border'>
+                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('parents')} className='text-moss text-[1.9rem] leading-[1] box-border hover:underline'>
                                     Parents
                                     <p className='text-moss text-[1.125rem] leading-[1.7] break-normal overflow-hidden relative z-2 mt-0 mb-[2.5rem] block font-medium'>+ View Details</p>
                                 </a>
@@ -114,17 +114,17 @@ const AbaysM = () => {
                     {/* NAV */}
                     <div className='mr-0 ml-0 justify-center flex flex-wrap box-border pb-[40px]'>
                         <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
-                            <a onClick={() => handleNavigation('ps')} className='text-[1.7rem] leading-[1.5] font-medium'>Principal Sponsors</a>
+                            <a onClick={() => handleNavigation('ps')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Principal Sponsors</a>
                             <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
-                            <a onClick={() => handleNavigation('ss')} className='text-[1.7rem] leading-[1.5] font-medium'>Secondary Sponsors</a>
+                            <a onClick={() => handleNavigation('ss')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Secondary Sponsors</a>
                             <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
-                            <a onClick={() => handleNavigation('bridesmaids')} className='text-[1.7rem] leading-[1.5] font-medium'>Bridesmaids</a>
+                            <a onClick={() => handleNavigation('bridesmaids')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Bridesmaids</a>
                             <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
-                            <a onClick={() => handleNavigation('groomsmen')} className='text-[1.7rem] leading-[1.5] font-medium'>Groomsmen</a>
+                            <a onClick={() => handleNavigation('groomsmen')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Groomsmen</a>
                             <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
-                            <a onClick={() => handleNavigation('bearers')} className='text-[1.7rem] leading-[1.5] font-medium'>Bearers</a>
+                            <a onClick={() => handleNavigation('bearers')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Bearers</a>
                             <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
-                            <a onClick={() => handleNavigation('parents')} className='text-[1.7rem] leading-[1.5] font-medium'>Parents</a>
+                            <a onClick={() => handleNavigation('parents')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Parents</a>
                         </div>
                     </div>
                     {/* ITEMS */}
