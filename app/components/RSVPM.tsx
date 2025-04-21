@@ -1,5 +1,6 @@
 import React from 'react'
 import DropdownCheckbox from './DropdownCheckbox';
+import Image from 'next/image'
 
 const RSVPM = () => {
 
@@ -16,6 +17,15 @@ const RSVPM = () => {
 
   return (
     <section className='min-h-[315px] pb-[1rem] relative justify-center flex flex-wrap box-border'>
+        {/* FLOWER */}
+        <div className='w-[12rem] h-[16rem] top-[-27%] left-[20%] rotate-275 absolute z-2 pointer-events-none box-border block intersect-once intersect:motion-preset-slide-down motion-duration-1000'>
+            <Image 
+                src={'/flowers/floater_7.png'}
+                alt=''
+                fill
+                className='object-cover'
+            />
+        </div>
         <div className='box-border absolute top-0 left-0 z-1 block'>
             {/* TITLE */}
             <h2 className='-rotate-90 absolute margin-0 whitespace-nowrap text-ellipsis z-2 pb-[0.5rem] top-[8rem] left-[-3rem] text-[4rem] leading-[0.9] text-moss'> RSVP</h2>
@@ -25,7 +35,7 @@ const RSVPM = () => {
             {/* ROW CONTAINTER */}
             <div className='mr-0 ml-0 box-border justify-end flex flex-wrap'>
               {/* RSVP */}
-              <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pl-[15px] box-border block'>
+              <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pl-[15px] pt-[1rem] box-border block'>
                   <div className='mr-auto ml-auto pl-[15px] pr-[15px] w-[100%] box-border block'>
                       {/* NAME FORM */}
                       <div className='text-left font-georgia text-moss pt-[1.5rem] pb-[1.5em] relative box-border text-[1.125rem] leading-[1.7]'>

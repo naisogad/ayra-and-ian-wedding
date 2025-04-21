@@ -6,9 +6,9 @@ const PhotosM = () => {
 
 
   return (
-        <section id='galleryM' className='min-h-[503px] pt-[4rem] pb-[4rem] relative justify-center flex flex-wrap box-border mt-[8rem] z-0 lg:hidden md:hidden'>\
+        <section id='galleryM' className='min-h-[600px] pt-[4rem] pb-[4rem] relative justify-center flex flex-wrap box-border mt-[8rem] mb-[6rem] z-0 lg:hidden md:hidden'>\
             {/* FLOWER */}
-            <div className='w-[12rem] h-[14rem] top-[-3%] left-[48%] rotate-275 absolute z-1 pointer-events-none box-border block intersect-once intersect:motion-preset-slide-down motion-duration-1000'>
+            <div className='w-[12rem] h-[14rem] top-[-3%] left-[50%] rotate-275 absolute z-1 pointer-events-none box-border block intersect-once intersect:motion-preset-slide-down motion-duration-1000'>
                 <Image 
                     src={'/flowers/floater_6.png'}
                     alt=''
@@ -25,7 +25,7 @@ const PhotosM = () => {
               <div className='justify-end flex flex-wrap box-border'>
                 {/* IMAGE COLUMN */}
                 <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pl-[15px] pr-[15px] bg-amber-50 box-border block'>
-                  <div className='flex flex-wrap box-border'>
+                  <div className='flex flex-wrap box-border pt-[2rem] pb-[2rem]'>
                      <ImageFlip frontImageSrc={'/pictures/couple-1.jpg'} backContent={undefined} />
                      <ImageFlip frontImageSrc={'/pictures/couple-2.jpg'} backContent={undefined} />
                      <ImageFlip frontImageSrc={'/pictures/couple-3.jpg'} backContent={undefined} />

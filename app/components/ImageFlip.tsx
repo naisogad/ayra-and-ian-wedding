@@ -21,10 +21,10 @@ const ImageFlip = ({ frontImageSrc, backContent, width = 300, height = 500, alt 
             aria-label={alt}
         >
              <div
-                    className={`pr-[11.5%] relative w-full h-full transition-transform duration-700 ease-in-out ${isFlipped ? '[transform:rotateY(180deg)]' : ''}`}
+                    className={`pr-[11.5%] relative w-full h-[100%] transition-transform duration-700 ease-in-out ${isFlipped ? '[transform:rotateY(180deg)]' : ''}`}
                     style={{ transformStyle: 'preserve-3d' }} // Essential for 3D effect
             >
-                <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[30rem] pl-[15px] pr-[15px] mb-3 box-border block' style={{ backfaceVisibility: 'hidden' }}>
+                <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[30rem] pl-[15px] pr-[15px] box-border block' style={{ backfaceVisibility: 'hidden' }}>
                     <Image 
                         src={frontImageSrc}
                         alt=''
