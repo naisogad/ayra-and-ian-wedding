@@ -14,6 +14,7 @@ import AbaysM from "./components/AbaysM";
 import Link from 'next/link';
 import ScheduleM from "./components/ScheduleM";
 import DresscodeM from "./components/DresscodeM";
+import PhotosM from "./components/PhotosM";
 
 
 export default function Home() {
@@ -66,6 +67,7 @@ export default function Home() {
       <AbaysM />
       <ScheduleM />
       <DresscodeM />
+      <PhotosM />
     </div>
     </ObserverProvider>
     </>
