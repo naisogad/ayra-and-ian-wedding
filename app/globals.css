@@ -11,6 +11,7 @@
   --color-stain: #ebe4bb;
   --color-moss: #527d39;
   --font-georgia: Georgia, 'Times New Roman', Times, serif;
+  --color-shadow: #EBE4BB;
 }
 
 @media (prefers-color-scheme: dark) {

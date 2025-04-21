@@ -15,6 +15,7 @@ import Link from 'next/link';
 import ScheduleM from "./components/ScheduleM";
 import DresscodeM from "./components/DresscodeM";
 import PhotosM from "./components/PhotosM";
+import RSVPM from "./components/RSVPM";
 
 
 export default function Home() {
@@ -68,6 +69,7 @@ export default function Home() {
       <ScheduleM />
       <DresscodeM />
       <PhotosM />
+      <RSVPM />
     </div>
     </ObserverProvider>
     </>

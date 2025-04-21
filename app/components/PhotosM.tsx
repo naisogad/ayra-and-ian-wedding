@@ -8,9 +8,9 @@ const PhotosM = () => {
   return (
         <section id='galleryM' className='min-h-[503px] pt-[4rem] pb-[4rem] relative justify-center flex flex-wrap box-border mt-[8rem] z-0 lg:hidden md:hidden'>\
             {/* FLOWER */}
-            <div className='w-[13rem] h-[12rem] top-[-3%] left-[1%] rotate-275 absolute z-1 pointer-events-none box-border block intersect-once intersect:motion-preset-slide-down motion-duration-1000'>
+            <div className='w-[12rem] h-[14rem] top-[-3%] left-[48%] rotate-275 absolute z-1 pointer-events-none box-border block intersect-once intersect:motion-preset-slide-down motion-duration-1000'>
                 <Image 
-                    src={'/flowers/floater_2.png'}
+                    src={'/flowers/floater_6.png'}
                     alt=''
                     fill
                     className='object-cover'

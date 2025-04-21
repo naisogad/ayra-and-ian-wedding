@@ -1,0 +1,65 @@
+import React from 'react'
+import DropdownCheckbox from './DropdownCheckbox';
+
+const RSVPM = () => {
+
+  const availableOptions = [
+    { label: 'preparation', value: 'preparation' },
+    { label: 'ceremony', value: 'ceremony' },
+    { label: 'reception', value: 'reception' },
+  ];
+
+  const handleSelection = (selected) => {
+    console.log('Selected Options:', selected);
+    // Do something with the selected options
+  };
+
+  return (
+    <section className='min-h-[315px] pb-[1rem] relative justify-center flex flex-wrap box-border'>
+        <div className='box-border absolute top-0 left-0 z-1 block'>
+            {/* TITLE */}
+            <h2 className='-rotate-90 absolute margin-0 whitespace-nowrap text-ellipsis z-2 pb-[0.5rem] top-[8rem] left-[-3rem] text-[4rem] leading-[0.9] text-moss'> RSVP</h2>
+        </div>
+        {/* CONTENT CONTAINER */}
+        <div className='ml-auto pl-0 pr-0 z-1 grow-0 shrink-0 basis-[75%] max-w-[75%] relative w-[100%] min-h-[1px] box-border block bg-amber-50'>
+            {/* ROW CONTAINTER */}
+            <div className='mr-0 ml-0 box-border justify-end flex flex-wrap'>
+              {/* RSVP */}
+              <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pl-[15px] box-border block'>
+                  <div className='mr-auto ml-auto pl-[15px] pr-[15px] w-[100%] box-border block'>
+                      {/* NAME FORM */}
+                      <div className='text-left font-georgia text-moss pt-[1.5rem] pb-[1.5em] relative box-border text-[1.125rem] leading-[1.7]'>
+                          <span className='whitespace-normal inline text-ellipsis overflow-hidden'>I,</span>
+                          <span className='whitespace-normal inline text-ellipsis overflow-hidden'>
+                              <input type="text" placeholder='your name here' className='bg-white w-[97%] h-[2.5rem] inline-block pl-[1rem] mb-[0.5rem] outline-none appearance-none border-2 border-shadow'/>
+                          </span>
+                          <span className='whitespace-normal inline text-ellipsis overflow-hidden'>,</span>
+                          <select name="attending-response" id="aattending-response" className='bg-shadow border-2 border-shadow inline-block mb-[0.5rem] h-[2.5rem] w-[97%] pl-[1rem] pt-[0.3rem] pb-[0.5rem]'>
+                              <option value="str" label='am attending'></option>
+                              <option value="str" label='am not attending'></option>
+                          </select>
+                          <span>the festivities.</span>                         
+                      </div>
+                      {/* EVENT FORM */}
+                      <div className='text-left font-georgia text-moss pb-[1.5em] relative box-border text-[1.125rem] leading-[1.5]'>
+                          <span className='whitespace-normal inline text-ellipsis overflow-hidden'>I will be attending</span>
+                          <DropdownCheckbox options={availableOptions} onSelectionChange={handleSelection}/>                   
+                      </div>
+                      {/* CONTACT FORM */}
+                      <div className='text-left font-georgia text-moss pb-[1.5em] relative box-border text-[1.125rem] leading-[1.7]'>
+                          <span className='whitespace-normal inline text-ellipsis overflow-hidden'>You can ping me, ring me, or bring me more info at:</span>
+                          <span className='whitespace-normal inline text-ellipsis overflow-hidden'>
+                              <input type="text" placeholder='my_email@example.com' className='bg-white w-[97%] h-[2.5rem] inline-block pl-[1rem] mb-[0.5rem] outline-none appearance-none border-2 border-shadow'/>
+                              <input type="text" placeholder='09123456789' className='bg-white w-[97%] h-[2.5rem] inline-block pl-[1rem] mb-[0.5rem] outline-none appearance-none border-2 border-shadow'/>
+                          </span>                         
+                      </div>
+                      <button className='p-[1rem] text-center block w-[98%] border border-shadow text-moss bg-shadow font-georgia box-border focus:outline-none focus:ring-2 focus:ring-moss focus:border-moss'>submit</button>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </section>
+  )
+}
+
+export default RSVPM
