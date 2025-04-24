@@ -22,7 +22,7 @@ const AbaysM = () => {
 
         const handleNavigation = (section) => {
         setActiveSection(section);
-  };
+        };
 
   return (
     <section id='abaysM' className='flex min-h-[600px] pt-[12rem] pr-[0.5rem] pb-[4rem] relative justify-center flex-wrap box-border lg:hidden md:hidden'>

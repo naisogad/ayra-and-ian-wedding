@@ -40,8 +40,8 @@ const Navbar = () => {
             <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#schedule">Schedule</a></li>
             <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#theme">Theme</a></li>
             <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#gallery">Gallery</a></li>
-            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#faqs">FAQs</a></li>
             <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#rsvp">RSVP</a></li>
+            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#faqs">FAQs</a></li>
           </ul>
         </div>
       {/* MOBILE MENU */}
@@ -53,8 +53,8 @@ const Navbar = () => {
             <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#scheduleM">Schedule</a></li>
             <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#themeM">Theme</a></li>
             <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#galleryM">Gallery</a></li>
-            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#faqsM">FAQs</a></li>
             <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#rsvpM">RSVP</a></li>
+            <li><a className='text-3xl text-moss hover:text-amber-50' onClick={toggleNav} href="#faqsM">FAQs</a></li>
           </ul>
         </div>
       </div>

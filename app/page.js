@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import HeaderM from "./components/HeaderM";
 import About from "./components/About";
 import AboutM from "./components/AboutM";
-import ObserverProvider from "./components/Observer";
+import ObserverProvider from "./components/small_components/Observer";
 import { BarLoader } from "react-spinners";
 import Couple from "./components/Couple";
 import CoupleM from "./components/CoupleM";
@@ -14,8 +14,9 @@ import AbaysM from "./components/AbaysM";
 import Link from 'next/link';
 import ScheduleM from "./components/ScheduleM";
 import DresscodeM from "./components/DresscodeM";
-import PhotosM from "./components/PhotosM";
+import Gallery from "./components/Gallery";
 import RSVPM from "./components/RSVPM";
+import FAQs from "./components/FAQs";
 
 
 export default function Home() {
@@ -68,8 +69,9 @@ export default function Home() {
       <AbaysM />
       <ScheduleM />
       <DresscodeM />
-      <PhotosM />
+      <Gallery />
       <RSVPM />
+      <FAQs />
     </div>
     </ObserverProvider>
     </>

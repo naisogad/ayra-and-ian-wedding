@@ -1,5 +1,5 @@
 import React from 'react'
-import DropdownCheckbox from './DropdownCheckbox';
+import DropdownCheckbox from './small_components/DropdownCheckbox';
 import Image from 'next/image'
 
 const RSVPM = () => {
@@ -16,9 +16,9 @@ const RSVPM = () => {
   };
 
   return (
-    <section className='min-h-[315px] pb-[1rem] relative justify-center flex flex-wrap box-border'>
+    <section className='min-h-[315px] pb-[1rem] mt-[12rem] relative justify-center flex flex-wrap box-border lg:hidden md:hidden'>
         {/* FLOWER */}
-        <div className='w-[12rem] h-[16rem] top-[-27%] left-[20%] rotate-275 absolute z-2 pointer-events-none box-border block intersect-once intersect:motion-preset-slide-down motion-duration-1000'>
+        <div id='rsvpM' className='w-[12rem] h-[16rem] top-[-27%] left-[20%] rotate-275 absolute z-1 pointer-events-none box-border block intersect-once intersect:motion-preset-slide-down motion-duration-1000'>
             <Image 
                 src={'/flowers/floater_7.png'}
                 alt=''
@@ -26,17 +26,17 @@ const RSVPM = () => {
                 className='object-cover'
             />
         </div>
-        <div className='box-border absolute top-0 left-0 z-1 block'>
+        <div className='box-border absolute top-0 left-0 z-0 block'>
             {/* TITLE */}
-            <h2 className='-rotate-90 absolute margin-0 whitespace-nowrap text-ellipsis z-2 pb-[0.5rem] top-[8rem] left-[-3rem] text-[4rem] leading-[0.9] text-moss'> RSVP</h2>
+            <h2 className='-rotate-90 absolute margin-0 whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[8rem] left-[-3rem] text-[4rem] leading-[0.9] text-moss'>RSVP</h2>
         </div>
         {/* CONTENT CONTAINER */}
-        <div className='ml-auto pl-0 pr-0 z-1 grow-0 shrink-0 basis-[75%] max-w-[75%] relative w-[100%] min-h-[1px] box-border block bg-amber-50'>
+        <div className='ml-auto pl-0 pr-0 z-0 grow-0 shrink-0 basis-[75%] max-w-[75%] relative w-[100%] min-h-[1px] box-border block bg-amber-50'>
             {/* ROW CONTAINTER */}
-            <div className='mr-0 ml-0 box-border justify-end flex flex-wrap'>
+            <div className='mr-0 ml-0 box-border justify-end flex flex-wrap intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
               {/* RSVP */}
               <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pl-[15px] pt-[1rem] box-border block'>
-                  <div className='mr-auto ml-auto pl-[15px] pr-[15px] w-[100%] box-border block'>
+                  <div className='mr-auto ml-auto pl-[15px] pr-[15px] w-[100%] box-border block h-full mb-[4rem]'>
                       {/* NAME FORM */}
                       <div className='text-left font-georgia text-moss pt-[1.5rem] pb-[1.5em] relative box-border text-[1.125rem] leading-[1.7]'>
                           <span className='whitespace-normal inline text-ellipsis overflow-hidden'>I,</span>
@@ -52,7 +52,8 @@ const RSVPM = () => {
                       </div>
                       {/* EVENT FORM */}
                       <div className='text-left font-georgia text-moss pb-[1.5em] relative box-border text-[1.125rem] leading-[1.5]'>
-                          <span className='whitespace-normal inline text-ellipsis overflow-hidden'>I will be attending</span>
+                          <span className='whitespace-normal inline text-ellipsis overflow-hidden'>I will be attending
+                          </span>
                           <DropdownCheckbox options={availableOptions} onSelectionChange={handleSelection}/>                   
                       </div>
                       {/* CONTACT FORM */}
@@ -63,7 +64,7 @@ const RSVPM = () => {
                               <input type="text" placeholder='09123456789' className='bg-white w-[97%] h-[2.5rem] inline-block pl-[1rem] mb-[0.5rem] outline-none appearance-none border-2 border-shadow'/>
                           </span>                         
                       </div>
-                      <button className='p-[1rem] text-center block w-[98%] border border-shadow text-moss bg-shadow font-georgia box-border focus:outline-none focus:ring-2 focus:ring-moss focus:border-moss'>submit</button>
+                      <button className='p-[0.5rem] text-center block w-[98%] border border-shadow text-moss text-[1.125rem] leading-[1.7] bg-shadow font-georgia box-border focus:outline-none focus:ring-2 focus:ring-moss focus:border-moss'>submit</button>
                   </div>
               </div>
             </div>

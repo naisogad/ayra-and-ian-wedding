@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import ImageFlip from './ImageFlip';
+import ImageFlip from './small_components/ImageFlip';
 
 const PhotosM = () => {
 

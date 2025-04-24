@@ -31,13 +31,21 @@ const DropdownCheckbox = ({ options, onSelectionChange }) => {
         className="bg-shadow border border-gray-300 text-moss text-left shadow-sm pl-[1rem] pt-[0.3rem] pb-[0.5rem] w-full"
         onClick={toggleDropdown}
       >
-        {selectedOptions.length > 0
-          ? selectedOptions.join(', ')
-          : 'select options'}
+        <div className='flex flex-wrap justify-between'>
+            {selectedOptions.length > 0
+              ? selectedOptions.join(', ')
+              : 'select options'}
+
+            <div className='box-border block h-full w-5 justify-items-center relative'>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="4" stroke="currentColor" className="size-3 relative">
+                    <path strokeLinecap='round' strokeLinejoin='round' d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+                </svg>
+            </div>  
+        </div>
       </button>
 
       {isOpen && (
-        <div className="absolute z-10 mt-1 w-[97%] bg-shadow">
+        <div className="absolute z-10 mt-0 w-[97%] bg-shadow outline-[0.5px]">
           <ul className="max-h-48 overflow-auto focus:outline-none">
             {options.map((option) => (
               <li key={option.value} className="px-2 py-1 hover:bg-gray-100">
