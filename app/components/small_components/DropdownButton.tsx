@@ -21,7 +21,7 @@ const DropdownButton = ({question, answer}) => {
   >
       <div className='flex flex-wrap justify-between items-center'>
           <a className='text-[1.8rem] w-[90%] leading-[2.2rem]'>{question}</a>
-          <div className='box-border block w-[10%] justify-items-center relative'>
+          <div className={`${toggleMenu? 'rotate-180': ''} box-border block w-[10%] justify-items-center relative transition-transform duration-150`}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="4" stroke="currentColor" className="size-3 relative align-middle">
                   <path strokeLinecap='round' strokeLinejoin='round' d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
                 </svg>
