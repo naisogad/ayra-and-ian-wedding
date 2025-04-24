@@ -31,7 +31,7 @@ const DropdownCheckbox = ({ options, onSelectionChange }) => {
         className="bg-shadow border border-gray-300 text-moss text-left shadow-sm pl-[1rem] pt-[0.3rem] pb-[0.5rem] w-full"
         onClick={toggleDropdown}
       >
-        <div className='flex flex-wrap justify-between'>
+        <div className='flex flex-wrap justify-between items-center'>
             {selectedOptions.length > 0
               ? selectedOptions.join(', ')
               : 'select options'}
