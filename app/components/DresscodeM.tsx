@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const DresscodeM = () => {
   return (
-    <section id='themeM' className='min-h-[600px] pt-[12rem] pr-[0.5rem] pb-[4rem] relative justify-center flex flex-wrap box-border lg:hidden md:hidden'>
+    <section className='min-h-[600px] pt-[12rem] pr-[0.5rem] pb-[4rem] relative justify-center flex flex-wrap box-border lg:hidden md:hidden'>
         <div className='w-[12rem] h-[12rem] top-[5%] left-[60%] absolute z-1 pointer-events-none box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
             <Image 
                 alt=''
@@ -17,7 +17,7 @@ const DresscodeM = () => {
             <h2 className='text-moss -rotate-90 absolute m-0 whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[22rem] left-[-4rem] text-[4rem] leading-[0.9]'>Theme</h2>
         </div>
         {/* CONTENT */}
-        <div id='#' className='z-0 pr-0 pl-0 ml-auto grow-0 shrink-0 basis-[70%] max-w-[70%] relative w-[100%] min-h-[1px] box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
+        <div id='themeM' className='z-0 pr-0 pl-0 ml-auto grow-0 shrink-0 basis-[70%] max-w-[70%] relative w-[100%] min-h-[1px] box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
             <div className='ml-0 mr-0 justify-end flex flex-wrap box-border'>
                 <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pt-[3rem] box-border block bg-amber-50'>
                     {/* ROW */}

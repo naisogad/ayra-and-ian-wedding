@@ -13,7 +13,7 @@ const HeaderM = () => {
                     alt=''
                     src={'/pictures/photo-1.jpg'}
                     fill
-                    className='object-cover'
+                    className='object-cover object-[0%_80%]'
                 />
             </div>
             {/* DATE */}
@@ -27,7 +27,7 @@ const HeaderM = () => {
                     alt=''
                     src={'/pictures/photo-2.jpg'}
                     fill
-                    className='object-cover'
+                    className='object-cover object-[0%_80%]'
                 />
             </div>
             {/* FLOWER 1 */}

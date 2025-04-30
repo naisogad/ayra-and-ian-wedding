@@ -36,7 +36,7 @@ const FAQs = () => {
                                     <DropdownButton question={"What time should I arrive?"} answer={'Lorem Ipsum'} />
                                     <DropdownButton question={"Where are the ceremony and reception located?"} answer={'Lorem Ipsum'} />
                                     <DropdownButton question={"Can I take photos during the ceremony or reception?"} answer={'Lorem Ipsum'} />
-                                    <DropdownButton question={"Do I need to bring a gift?"} answer={'Lorem Ipsum'} />
+                                    <DropdownButton question={"Do I need to bring a gift?"} answer={'We are truly blessed for all we have, so your presence and prayers are all we request. If you desire to give nonetheless, we suggest monetary gift.'} />
                                 </div>
                             </span>               
                         </div>

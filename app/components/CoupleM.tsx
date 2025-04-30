@@ -29,7 +29,7 @@ const CoupleM = () => {
                     src={'/pictures/photo-3.jpg'}
                     alt=''
                     fill
-                    className='object-cover'
+                    className='object-cover object-[40%_0%]'
                   />
                 </div>
                 {/* IMAGE 2 */}
@@ -38,7 +38,7 @@ const CoupleM = () => {
                     src={'/pictures/photo-4.jpg'}
                     alt=''
                     fill
-                    className='object-cover'
+                    className='object-none object-[35%_100%]'
                   />
                 </div>
                 {/* IMAGE 3 */}
@@ -47,7 +47,7 @@ const CoupleM = () => {
                     src={'/pictures/photo-5.jpg'}
                     alt=''
                     fill
-                    className='object-cover'
+                    className='object-none object-[50%_0%]'
                   />
                 </div>
               </div>
@@ -58,7 +58,7 @@ const CoupleM = () => {
                 <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] box-border block bg-amber-50 pr-[15px] pl-[15px] mt-[0rem] intersect-once intersect:motion-preset-fade motion-duration-1000'>
                   {/* TITLE */}
                   <h3 className='text-moss text-[2rem] leading-[1.7] mt-[1rem] mb-[0.5rem] overflow-hidden text-ellipsis relative z-0 text-center box-border'>Ayra & Ian</h3>
-                  <p className='mt-[0.5rem] mb-[1rem] text-[1.125rem] leading-[1.7] break-normal overflow-hidden relative z-0 text-moss text-left box-border block'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus. Nulla pellentesque mi turpis, vitae egestas turpis feugiat sed. Donec sit amet aliquet ipsum, sit amet sagittis dui. Morbi rutrum erat condimentum lorem sollicitudin, eu sodales mi laoreet.</p>
+                  <p className='mt-[0.5rem] mb-[1rem] text-[1.125rem] leading-[1.7] break-normal overflow-hidden relative z-0 text-moss text-left box-border block'>By God's loving design, Ayra and Ian have been brought together, each reflecting His grace in unique ways. <br /> <br /> Ayra is a true blessing, embodying God's love with her incredibly kind heart and deeply thoughtful spirit that touches everyone she encounters. Her compassion and consideration are evident in every gentle action. <br /> <br />Ian, a man walking in faith, exemplifies steadfast faithfulness in his commitments, mirroring the unwavering love of our Heavenly Father, and his genuine warmth is why he is so deeply beloved by God who knows him—a testament to the light he carries within. <br /> <br />As they step into the sacred covenant of marriage, they do so with hearts overflowing with gratitude to God for guiding their paths and weaving their beautiful, individual gifts into a shared future, giving Him all the glory for the love they share and the life they are building together.</p>
                 </div>
               </div>
             </div>

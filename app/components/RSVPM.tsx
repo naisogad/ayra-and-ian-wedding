@@ -61,12 +61,12 @@ const RSVPM = () => {
                           <DropdownRadioButton options={options} defaultValue="am attending" onChange={handleDropdownChange} />
                           <span>the festivities.</span>                         
                       </div>
-                      {/* EVENT FORM */}
+                      {/* EVENT FORM
                       <div className='text-left font-georgia text-moss mb-[3rem] relative box-border text-[1.125rem] leading-[1.5]'>
                           <span className='whitespace-normal inline text-ellipsis overflow-hidden'>I will be attending
                           </span>
                           <DropdownCheckbox options={availableOptions} onSelectionChange={handleSelection}/>                   
-                      </div>
+                      </div> */}
                       {/* CONTACT FORM */}
                       <div className='text-left font-georgia text-moss pb-[1.5em] relative box-border text-[1.125rem] leading-[1.7]'>
                           <span className='whitespace-normal inline text-ellipsis overflow-hidden'>You can ping me, ring me, or bring me more info at:</span>
