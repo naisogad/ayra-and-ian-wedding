@@ -29,7 +29,7 @@ const CoupleM = () => {
                     src={'/pictures/photo-3.jpg'}
                     alt=''
                     fill
-                    className='object-cover object-[40%_0%]'
+                    className='object-cover object-[45%_0%]'
                   />
                 </div>
                 {/* IMAGE 2 */}
@@ -47,7 +47,7 @@ const CoupleM = () => {
                     src={'/pictures/photo-5.jpg'}
                     alt=''
                     fill
-                    className='object-none object-[50%_0%]'
+                    className='object-cover object-[53%_0%]'
                   />
                 </div>
               </div>
