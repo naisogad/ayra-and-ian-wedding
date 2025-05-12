@@ -17,7 +17,7 @@ const FAQs = () => {
         </div>
             <div className='box-border absolute top-0 left-0 z-0 block'>
                 {/* TITLE */}
-                <h2 className='-rotate-90 absolute margin-0 whitespace-nowrap text-ellipsis z-2 pb-[0.5rem] top-[8rem] left-[-3rem] text-[4rem] leading-[0.9] text-moss'>FAQs</h2>
+                <h2 className='-rotate-90 absolute margin-0 whitespace-nowrap text-ellipsis z-2 pb-[0.5rem] top-[8rem] left-[-1.5rem] text-[4rem] leading-[0.9] text-moss'>FAQs</h2>
             </div>
         {/* CONTENT CONTAINER */}
         <div className='ml-auto pl-0 pr-0 z-0 grow-0 shrink-0 basis-[75%] max-w-[75%] absolute w-[100%] min-h-[1px] left-[25%] box-border block bg-amber-50'>

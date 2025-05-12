@@ -14,9 +14,9 @@ import AbaysM from "./components/AbaysM";
 import Link from 'next/link';
 import ScheduleM from "./components/ScheduleM";
 import DresscodeM from "./components/DresscodeM";
-import Gallery from "./components/Gallery";
+import GalleryM from "./components/GalleryM";
 import RSVPM from "./components/RSVPM";
-import FAQs from "./components/FAQs";
+import FAQsM from "./components/FAQsM";
 
 
 export default function Home() {
@@ -69,9 +69,9 @@ export default function Home() {
       <AbaysM />
       <ScheduleM />
       <DresscodeM />
-      <Gallery />
+      <GalleryM />
       <RSVPM />
-      <FAQs />
+      <FAQsM />
     </div>
     </ObserverProvider>
     </>
