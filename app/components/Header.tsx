@@ -18,7 +18,7 @@ const Header = () => {
                                 alt=''
                                 src={'/pictures/photo-1.jpg'}
                                 fill
-                                className='object-cover'
+                                className='object-cover object-[0%_65%]'
                             />
                         </div> 
                         {/* FLOWER 1    */}

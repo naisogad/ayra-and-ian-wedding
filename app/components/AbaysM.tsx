@@ -61,7 +61,7 @@ const AbaysM = () => {
                             </div>
                             <div className='box-border block text-right'>
                                 <a onClick={toggleNav} onClickCapture={() => handleNavigation('bridesmaids')} className='text-moss text-[1.9rem] leading-[1] box-border hover:underline'>
-                                    Bridesmaid
+                                    Bridesmaids
                                     <p className='text-moss text-[1.125rem] leading-[1.7] break-normal overflow-hidden relative z-2 mt-0 mb-[2.5rem] block font-medium'>+ View Details</p>
                                 </a>
                             </div>
