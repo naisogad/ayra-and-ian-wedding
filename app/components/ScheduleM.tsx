@@ -20,9 +20,17 @@ const ScheduleM = () => {
 
         const [activeSection, setActiveSection] = useState('ps');
 
-        const handleNavigation = (section) => {
-        setActiveSection(section);
-  };
+            const handleNavigation = (section) => {
+            setActiveSection(section);
+
+        };
+
+        const [activeItem, setActiveItem] = useState('p1');
+                  
+            const handleItem = (item) => {
+            setActiveItem(item);
+
+        };
 
   return (
     <section id='scheduleM' className='flex min-h-[600px] pt-[4rem] pr-[0.5rem] pb-[4rem] relative justify-center flex-wrap box-border lg:hidden md:hidden'>
@@ -91,13 +99,19 @@ const ScheduleM = () => {
                     {/* NAV */}
                     <div className='mr-0 ml-0 justify-center flex flex-wrap box-border pb-[30px]'>
                         <div className='bg-amber-50 text-left text-moss font-georgia grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
-                            <a onClick={() => handleNavigation('ps')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Preparation</a>
-                            <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
+                            <div onClick={() => handleNavigation('ps')} onClickCapture={() => handleItem('s1')} className='inline-block'>
+                                <a className={`${activeItem === 's1' && ('bg-shadow')} text-[1.7rem] leading-[1.5] p-1 font-medium hover:underline`}>Preparation</a>
+                                <span className=' leading-[1] text-[1.5rem] font-bold'>|</span>
+                            </div>
                             <br />
-                            <a onClick={() => handleNavigation('ss')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Ceremony</a>
-                            <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
-                            <a onClick={() => handleNavigation('rc')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Reception</a>
-                            <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
+                            <div onClick={() => handleNavigation('ss')} onClickCapture={() => handleItem('s2')} className='inline-block'>
+                                <a className={`${activeItem === 's2' && ('bg-shadow')} text-[1.7rem] leading-[1.5] p-1 font-medium hover:underline`}>Ceremony</a>
+                                <span className=' leading-[1] text-[1.5rem] font-bold'>|</span>
+                            </div>
+                            <div onClick={() => handleNavigation('rc')} onClickCapture={() => handleItem('s3')} className='inline-block'>
+                                <a className={`${activeItem === 's3' && ('bg-shadow')} text-[1.7rem] leading-[1.5] p-1 font-medium hover:underline`}>Reception</a>
+                                <span className=' leading-[1] text-[1.5rem] font-bold'>|</span>
+                            </div>
                         </div>
                     </div>
                     {/* ITEMS */}

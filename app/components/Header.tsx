@@ -33,7 +33,7 @@ const Header = () => {
                     </div>
                     {/* TITLE */}
                     <div className='absolute z-1 top-[10rem] flex flex-wrap mr-[-15px] ml-[15px] box-border motion-preset-slide-right motion-duration-1000'>
-                        <h1 className='text-moss text-[5.6rem] drop-shadow-[3px_2px_rgba(255,255,255)]'>Ayra & Ian</h1>
+                        <h1 className='text-moss text-[5.6rem] drop-shadow-[3px_2px_rgba(255,255,255)]'>Ayra <a className='font-greatVibesR'>&</a> Ian</h1>
                     </div>
                     {/* IMAGE ROW 2 */}
                     <div className='flex flex-wrap mr-[-15px] ml-[-15px] box-border '>

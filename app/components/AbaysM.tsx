@@ -20,8 +20,16 @@ const AbaysM = () => {
 
         const [activeSection, setActiveSection] = useState('ps');
 
-        const handleNavigation = (section) => {
-        setActiveSection(section);
+            const handleNavigation = (section) => {
+            setActiveSection(section);
+
+        };
+
+        const [activeItem, setActiveItem] = useState('s1');
+          
+            const handleItem = (item) => {
+            setActiveItem(item);
+            
         };
 
   return (
@@ -114,17 +122,30 @@ const AbaysM = () => {
                     {/* NAV */}
                     <div className='mr-0 ml-0 justify-center flex flex-wrap box-border pb-[40px] font-georgia'>
                         <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
-                            <a onClick={() => handleNavigation('ps')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Principal Sponsors</a>
-                            <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
-                            <a onClick={() => handleNavigation('ss')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Secondary Sponsors</a>
-                            <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
-                            <a onClick={() => handleNavigation('bridesmaids')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Bridesmaids</a>
-                            <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
-                            <a onClick={() => handleNavigation('groomsmen')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Groomsmen</a>
-                            <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
-                            <a onClick={() => handleNavigation('bearers')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Bearers</a>
-                            <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
-                            <a onClick={() => handleNavigation('parents')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Parents</a>
+                            <div onClick={() => handleNavigation('ps')} onClickCapture={() => handleItem('s1')} className='inline-block'>
+                                <a className={`${activeItem === 's1' && ('bg-shadow')} text-[1.7rem] leading-[1.5] p-1 font-medium hover:underline`}>Principal Sponsors</a>
+                                <span className=' leading-[1] text-[1.5rem] font-bold'>|</span>
+                            </div>
+                            <div onClick={() => handleNavigation('ss')} onClickCapture={() => handleItem('s2')} className='inline-block'>
+                                <a className={`${activeItem === 's2' && ('bg-shadow')} text-[1.7rem] leading-[1.5] p-1 font-medium hover:underline`}>Secondary Sponsors</a>
+                                <span className=' leading-[1] text-[1.5rem] font-bold'>|</span>
+                            </div>
+                            <div onClick={() => handleNavigation('bridesmaids')} onClickCapture={() => handleItem('s3')} className='inline-block'>
+                                <a className={`${activeItem === 's3' && ('bg-shadow')} text-[1.7rem] leading-[1.5] p-1 font-medium hover:underline`}>Bridesmaids</a>
+                                <span className=' leading-[1] text-[1.5rem] font-bold'>|</span>
+                            </div>
+                            <div onClick={() => handleNavigation('groomsmen')} onClickCapture={() => handleItem('s4')} className='inline-block'>
+                                <a className={`${activeItem === 's4' && ('bg-shadow')} text-[1.7rem] leading-[1.5] p-1 font-medium hover:underline`}>Groomsmen</a>
+                                <span className=' leading-[1] text-[1.5rem] font-bold'>|</span>
+                            </div>
+                            <div onClick={() => handleNavigation('bearers')} onClickCapture={() => handleItem('s5')} className='inline-block'>
+                                <a className={`${activeItem === 's5' && ('bg-shadow')} text-[1.7rem] leading-[1.5] p-1 font-medium hover:underline`}>Bearers</a>
+                                <span className=' leading-[1] text-[1.5rem] font-bold'>|</span>
+                            </div>
+                            <div onClick={() => handleNavigation('parents')} onClickCapture={() => handleItem('s6')} className='inline-block'>
+                                <a className={`${activeItem === 's6' && ('bg-shadow')} text-[1.7rem] leading-[1.5] p-1 font-medium hover:underline`}>Parents</a>
+                                <span className=' leading-[1] text-[1.5rem] font-bold'>|</span>
+                            </div>
                         </div>
                     </div>
                     {/* ITEMS */}

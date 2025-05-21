@@ -56,7 +56,7 @@ const Abays = () => {
                                     {/* CONTENT */}
                                     <div className='box-border block'>
                                         {/* CONTENT 1 */}
-                                        <a onClick={() => handleNavigation('ps')} className='text-moss text-[2rem] break-words cursor-pointer'>Principal Sponsors <p className='font-georgia text-[1rem]'>+</p></a>
+                                        <a onClick={() => handleNavigation('ps')} className='text-moss text-[2rem] leading-[2] break-words cursor-pointer'>Principal Sponsors <p className='font-georgia text-[1rem]'>+</p></a>
                                         {activeSection === 'ps' && (
                                         <ul className='block box-border text-moss text-[1.125rem] leading-[1.8] cursor-pointer font-georgia'>
                                                 {/* ITEM 1 */}
@@ -78,7 +78,7 @@ const Abays = () => {
                                         </ul>
                                         )}
                                         {/* CONTENT 2 */}
-                                        <a onClick={() => handleNavigation('ss')} className='text-moss text-[2rem] break-words cursor-pointer'>Secondary Sponsors <p className='font-georgia text-[1rem]'>+</p></a>
+                                        <a onClick={() => handleNavigation('ss')} className='text-moss text-[2rem] leading-[2] break-words cursor-pointer'>Secondary Sponsors <p className='font-georgia text-[1rem]'>+</p></a>
                                         {activeSection === 'ss' && (
                                         <ul className='block box-border text-moss text-[1.125rem] leading-[1.8] cursor-pointer font-georgia'>
                                                 {/* ITEM 1 */}
@@ -100,7 +100,7 @@ const Abays = () => {
                                         </ul>
                                         )}
                                         {/* CONTENT 3 */}
-                                        <a onClick={() => handleNavigation('bm')} className='text-moss text-[2rem] break-words cursor-pointer'>Bridesmaids <p className='font-georgia text-[1rem]'>+</p></a>
+                                        <a onClick={() => handleNavigation('bm')} className='text-moss text-[2rem] leading-[2] break-words cursor-pointer'>Bridesmaids <p className='font-georgia text-[1rem]'>+</p></a>
                                         {activeSection === 'bm' && (
                                         <ul className='block box-border text-moss text-[1.125rem] leading-[1.8] cursor-pointer font-georgia'>
                                                 {/* ITEM 1 */}
@@ -122,7 +122,7 @@ const Abays = () => {
                                         </ul>
                                         )}
                                         {/* CONTENT 4 */}
-                                        <a onClick={() => handleNavigation('gm')} className='text-moss text-[2rem] break-words cursor-pointer'>Groomsmen <p className='font-georgia text-[1rem]'>+</p></a>
+                                        <a onClick={() => handleNavigation('gm')} className='text-moss text-[2rem] leading-[2] break-words cursor-pointer'>Groomsmen <p className='font-georgia text-[1rem]'>+</p></a>
                                         {activeSection === 'gm' && (
                                         <ul className='block box-border text-moss text-[1.125rem] leading-[1.8] cursor-pointer font-georgia'>
                                                 {/* ITEM 1 */}
@@ -144,7 +144,7 @@ const Abays = () => {
                                         </ul>
                                         )}
                                         {/* CONTENT 5 */}
-                                        <a onClick={() => handleNavigation('br')} className='text-moss text-[2rem] break-words cursor-pointer'>Bearers <p className='font-georgia text-[1rem]'>+</p></a>
+                                        <a onClick={() => handleNavigation('br')} className='text-moss text-[2rem] leading-[2] break-words cursor-pointer'>Bearers <p className='font-georgia text-[1rem]'>+</p></a>
                                         {activeSection === 'br' && (
                                         <ul className='block box-border text-moss text-[1.125rem] leading-[1.8] cursor-pointer font-georgia'>
                                                 {/* ITEM 1 */}
@@ -166,7 +166,7 @@ const Abays = () => {
                                         </ul>
                                         )}
                                         {/* CONTENT 6 */}
-                                        <a onClick={() => handleNavigation('pr')} className='text-moss text-[2rem] break-words cursor-pointer'>Parents <p className='font-georgia text-[1rem]'>+</p></a>
+                                        <a onClick={() => handleNavigation('pr')} className='text-moss text-[2rem] leading-[2] break-words cursor-pointer'>Parents <p className='font-georgia text-[1rem]'>+</p></a>
                                         {activeSection === 'pr' && (
                                         <ul className='block box-border text-moss text-[1.125rem] leading-[1.8] cursor-pointer font-georgia'>
                                                 {/* ITEM 1 */}
