@@ -38,10 +38,10 @@ const RSVPM = () => {
         </div>
         <div className='box-border absolute top-0 left-0 z-0 block'>
             {/* TITLE */}
-            <h2 className='-rotate-90 absolute margin-0 whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[8rem] left-[-2rem] text-[4rem] leading-[0.9] text-moss'>RSVP</h2>
+            <h2 className='-rotate-90 absolute margin-0 whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[8rem] left-[-2.7rem] text-[3.2rem] leading-[0.9] text-moss'>RSVP</h2>
         </div>
         {/* CONTENT CONTAINER */}
-        <div className='ml-auto pl-0 pr-0 z-0 grow-0 shrink-0 basis-[75%] max-w-[75%] relative w-[100%] min-h-[1px] box-border block bg-amber-50'>
+        <div className='ml-auto pl-0 pr-0 z-0 grow-0 shrink-0 basis-[70%] max-w-[70%] relative w-[100%] min-h-[1px] box-border block bg-amber-50'>
             {/* ROW CONTAINTER */}
             <div className='mr-0 ml-0 box-border justify-end flex flex-wrap intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
               {/* RSVP */}
@@ -54,10 +54,6 @@ const RSVPM = () => {
                               <input type="text" placeholder='your name here' className='bg-white w-[97%] h-[2.5rem] inline-block pl-[1rem] mb-[0.5rem] outline-none appearance-none border-2 border-shadow'/>
                           </span>
                           <span className='whitespace-normal inline text-ellipsis overflow-hidden'>,</span>
-                          {/* <select name="attending-response" id="attending-response" className='bg-shadow border-2 border-shadow inline-block mb-[0.5rem] h-[2.5rem] w-[97%] pl-[1rem] pt-[0.3rem] pb-[0.5rem]'>
-                              <option value="str" label='am attending'></option>
-                              <option value="str" label='am not attending'></option>
-                          </select> */}
                           <DropdownRadioButton options={options} defaultValue="am attending" onChange={handleDropdownChange} />
                           <span>the festivities.</span>                         
                       </div>

@@ -28,10 +28,10 @@ const ScheduleM = () => {
     <section id='scheduleM' className='flex min-h-[600px] pt-[4rem] pr-[0.5rem] pb-[4rem] relative justify-center flex-wrap box-border lg:hidden md:hidden'>
         {/* TITLE */}
         <div className='absolute top-0 left-0 z-0 box-border block intersect-once intersect:motion-preset-slide-up motion-duration-1000'>
-            <h2 className='text-moss -rotate-90 absolute m-0 whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[16rem] left-[-4.5rem] text-[4rem] leading-[0.9]'>Schedule</h2>
+            <h2 className='text-moss -rotate-90 absolute m-0 whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[16rem] left-[-2rem] text-[3.2rem] leading-[0.9]'>Schedule</h2>
         </div>
         {/* CONTENT */}
-        <div id='abaysM' className='z-0 pr-0 pl-0 ml-auto grow-0 shrink-0 basis-[70%] max-w-[70%] relative w-[100%] min-h-[1px] box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
+        <div className='z-0 pr-0 pl-0 ml-auto grow-0 shrink-0 basis-[70%] max-w-[70%] relative w-[100%] min-h-[1px] box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
             <div className='ml-0 mr-0 justify-end flex flex-wrap box-border'>
                 <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pt-[3rem] box-border block bg-amber-50'>
                     {/* ROW */}
@@ -75,7 +75,7 @@ const ScheduleM = () => {
             <div className='relative flex flex-col bg-clip-padding box-border'>
                 {/* TITLE */}
                 <div className='relative z-1 h-[4.3rem] flex items-center justify-between p-[15px box-border]'>
-                    <h1 className='text-moss text-[2.5rem] pt-[50px] ml-[15px] font-medium'>Schedule</h1>
+                    <h1 className='text-moss text-[2.2rem] pt-[50px] ml-[15px] font-medium'>&nbsp;Schedule</h1>
                 </div>
                 {/* FLOWER 1 */}
                 <div className='w-[6rem] h-[10rem] top-[1.5rem] left-[18rem] rotate-x-180 rotate-115 absolute z-1 pointer-events-none box-border block'>
@@ -90,7 +90,7 @@ const ScheduleM = () => {
                 <div className='pt-[40px] relative grow-1 shrink-1 basis-auto p-[15px] box-border block'>
                     {/* NAV */}
                     <div className='mr-0 ml-0 justify-center flex flex-wrap box-border pb-[30px]'>
-                        <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
+                        <div className='bg-amber-50 text-left text-moss font-georgia grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
                             <a onClick={() => handleNavigation('ps')} className='text-[1.7rem] leading-[1.5] font-medium hover:underline'>Preparation</a>
                             <span className='pl-[0.25rem] pr-[0.25rem] leading-[1] text-[1.5rem] font-bold'> | </span>
                             <br />
@@ -105,7 +105,7 @@ const ScheduleM = () => {
                     {activeSection === 'ps' && (
                         <div className='ml-0 mr-0 justify-center flex flex-wrap box-border overflow-x-hidden'>
                             <div className='z-1 grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
-                                <div className='flex flex-wrap mr-[-15px] ml-[-15px] box-border'>
+                                <div className='flex flex-wrap mr-[-15px] ml-[-15px] box-border font-georgia'>
                                     {/* DATE */}
                                     <div className='grow-0 shrink-0 basis-[91%] max-w-[91%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
                                         <div className='flex flex-wrap mr-[-15px] ml-[-15px] box-border'>
@@ -194,7 +194,7 @@ const ScheduleM = () => {
                                 </div>
                             </div>
                             {/* WHERE */}
-                            <h1 className='text-moss text-[2.5rem] font-medium w-full pt-3 pb-3'>Where</h1>
+                            <h1 className='text-moss text-[2.5rem] font-medium w-full pt-3 pb-3'>&nbsp;Where</h1>
                             <div className='ml-0 mr-0 justify-center flex flex-wrap box-border'>
                                 {/* LOCATION IMAGE */}
                                 <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[18.5rem] pr-[15px] pl-[15px] box-border block'>
@@ -209,8 +209,8 @@ const ScheduleM = () => {
                                 {/* LOCATION DETAILS */}
                                 <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-screen min-h-[1px] mr-[-15px] ml-[-15px] box-border block'>
                                     <div className='pl-[15px] pr-[15px]'>
-                                        <h3 className='text-[2rem] mt-[0.75rem] mb-[0.75rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2'>GP Suites</h3>
-                                        <a href='https://www.facebook.com/gpsuitesandeventsplace?mibextid=wwXIfr&rdid=x5EJJd0lD2c2iccN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19u6wdbRfn%2F%3Fmibextid%3DwwXIfr#' className='text-[1.125rem] leading-[1.2] overflow-hidden relative box-border block font-georgia hover:underline'>GP Suites Facebook Page</a>
+                                        <h3 className='text-[2rem] mt-[0.75rem] mb-[0.75rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2 font-georgia'>GP Suites</h3>
+                                        <a href='https://www.facebook.com/gpsuitesandeventsplace?mibextid=wwXIfr&rdid=x5EJJd0lD2c2iccN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19u6wdbRfn%2F%3Fmibextid%3DwwXIfr#' className='text-[1.125rem] leading-[1.2] overflow-hidden relative box-border block font-georgia font-bold hover:underline'>-GP Suites Facebook Page-</a>
                                         <p className='text-[1.125rem] leading-[1.2] mb-3 overflow-hidden relative box-border block'>09150922326</p>
                                     <p className='text-[1.125rem] leading-[1.2] overflow-hidden relative mt-0 mb-[1rem] box-border block'>Greener Pastures, Main Ave, <br/>Sariaya, Quezon</p>
                                     </div>
@@ -223,7 +223,7 @@ const ScheduleM = () => {
                                 {/* QR DETAILS */}
                                 <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-screen min-h-[1px] mr-[-15px] ml-[-15px] box-border block'>
                                     <div className='pl-[15px] pr-[15px]'>
-                                        <h3 className='text-[2rem] mt-[1.5rem] mb-[1.5rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2'>QR Code</h3>
+                                        <h3 className='text-[2rem] mt-[1.5rem] mb-[1.5rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2 font-georgia'>QR Code</h3>
                                     </div>
                                 </div>
                                 {/* QR IMAGE */}
@@ -243,7 +243,7 @@ const ScheduleM = () => {
                     {activeSection === 'ss' && (
                         <div className='ml-0 mr-0 justify-center flex flex-wrap box-border'>
                             <div className='z-1 grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
-                                <div className='flex flex-wrap mr-[-15px] ml-[-15px] box-border'>
+                                <div className='flex flex-wrap mr-[-15px] ml-[-15px] box-border font-georgia'>
                                     {/* DATE */}
                                     <div className='grow-0 shrink-0 basis-[91%] max-w-[91%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
                                         <div className='flex flex-wrap mr-[-15px] ml-[-15px] box-border'>
@@ -277,7 +277,7 @@ const ScheduleM = () => {
                                 </div>
                             </div>
                             {/* WHERE */}
-                            <h1 className='text-moss text-[2.5rem] font-medium w-full pt-3 pb-3'>Where</h1>
+                            <h1 className='text-moss text-[2.5rem] font-medium w-full pt-3 pb-3'>&nbsp;Where</h1>
                             <div className='ml-0 mr-0 justify-center flex flex-wrap box-border'>
                                 {/* LOCATION IMAGE */}
                                 <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[18.5rem] pr-[15px] pl-[15px] box-border block'>
@@ -292,8 +292,8 @@ const ScheduleM = () => {
                                 {/* LOCATION DETAILS */}
                                 <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-screen min-h-[1px] mr-[-15px] ml-[-15px] box-border block'>
                                     <div className='pl-[15px] pr-[15px]'>
-                                        <h3 className='text-[2rem] mt-[0.75rem] mb-[0.75rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2'>GP Events Place</h3>
-                                        <a href='https://www.facebook.com/gpsuitesandeventsplace?mibextid=wwXIfr&rdid=x5EJJd0lD2c2iccN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19u6wdbRfn%2F%3Fmibextid%3DwwXIfr#' className='text-[1.125rem] leading-[1.2] overflow-hidden relative box-border block font-georgia hover:underline'>GP Suites Facebook Page</a>
+                                        <h3 className='text-[2rem] mt-[0.75rem] mb-[0.75rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2 font-georgia'>GP Events Place</h3>
+                                        <a href='https://www.facebook.com/gpsuitesandeventsplace?mibextid=wwXIfr&rdid=x5EJJd0lD2c2iccN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19u6wdbRfn%2F%3Fmibextid%3DwwXIfr#' className='text-[1.125rem] leading-[1.2] overflow-hidden relative box-border block font-georgia font-bold hover:underline'>-GP Suites Facebook Page-</a>
                                         <p className='text-[1.125rem] leading-[1.2] mb-3 overflow-hidden relative box-border block'>09150922326</p>
                                     <p className='text-[1.125rem] leading-[1.2] overflow-hidden relative mt-0 mb-[1rem] box-border block'>Greener Pastures, Main Ave, <br/>Sariaya, Quezon</p>
                                     </div>
@@ -305,7 +305,7 @@ const ScheduleM = () => {
                                 {/* QR DETAILS */}
                                 <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-screen min-h-[1px] mr-[-15px] ml-[-15px] box-border block'>
                                     <div className='pl-[15px] pr-[15px]'>
-                                        <h3 className='text-[2rem] mt-[1.5rem] mb-[1.5rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2'>QR Code</h3>
+                                        <h3 className='text-[2rem] mt-[1.5rem] mb-[1.5rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2 font-georgia'>QR Code</h3>
                                     </div>
                                 </div>
                                 {/* QR IMAGE */}
@@ -325,7 +325,7 @@ const ScheduleM = () => {
                     {activeSection === 'rc' && (
                         <div className='ml-0 mr-0 justify-center flex flex-wrap box-border'>
                             <div className='z-1 grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
-                                <div className='flex flex-wrap mr-[-15px] ml-[-15px] box-border'>
+                                <div className='flex flex-wrap mr-[-15px] ml-[-15px] box-border font-georgia'>
                                     {/* DATE */}
                                     <div className='grow-0 shrink-0 basis-[91%] max-w-[91%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
                                         <div className='flex flex-wrap mr-[-15px] ml-[-15px] box-border'>
@@ -403,8 +403,8 @@ const ScheduleM = () => {
                                 </div>
                             </div>
                             {/* WHERE */}
-                            <h1 className='text-moss text-[2.5rem] font-medium w-full pt-3 pb-3'>Where</h1>
-                            <div className='ml-0 mr-0 justify-center flex flex-wrap box-border'>
+                            <h1 className='text-moss text-[2.5rem] font-medium w-full pt-3 pb-3'>&nbsp;Where</h1>
+                            <div className='ml-0 mr-0 justify-center flex flex-wrap box-border font-georgia'>
                                 {/* LOCATION IMAGE */}
                                 <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[18.5rem] pr-[15px] pl-[15px] box-border block'>
                                     <Image 
@@ -419,7 +419,7 @@ const ScheduleM = () => {
                                 <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-screen min-h-[1px] mr-[-15px] ml-[-15px] box-border block'>
                                     <div className='pl-[15px] pr-[15px]'>
                                         <h3 className='text-[2rem] mt-[0.75rem] mb-[0.75rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2'>GP Events Place</h3>
-                                        <a href='https://www.facebook.com/gpsuitesandeventsplace?mibextid=wwXIfr&rdid=x5EJJd0lD2c2iccN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19u6wdbRfn%2F%3Fmibextid%3DwwXIfr#' className='text-[1.125rem] leading-[1.2] overflow-hidden relative box-border block font-georgia hover:underline'>GP Suites Facebook Page</a>
+                                        <a href='https://www.facebook.com/gpsuitesandeventsplace?mibextid=wwXIfr&rdid=x5EJJd0lD2c2iccN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19u6wdbRfn%2F%3Fmibextid%3DwwXIfr#' className='text-[1.125rem] leading-[1.2] overflow-hidden relative box-border block font-georgia font-bold hover:underline'>-GP Suites Facebook Page-</a>
                                         <p className='text-[1.125rem] leading-[1.2] mb-3 overflow-hidden relative box-border block'>09150922326</p>
                                     <p className='text-[1.125rem] leading-[1.2] overflow-hidden relative mt-0 mb-[1rem] box-border block'>Greener Pastures, Main Ave, <br/>Sariaya, Quezon</p>
                                     </div>
@@ -427,7 +427,7 @@ const ScheduleM = () => {
                             </div>
                             {/* MAP */}
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d814.0751945026327!2d121.46153672697085!3d13.933815191774528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd4891f3a3b319%3A0xa47782049fa77391!2sGP%20Events%20Place!5e0!3m2!1sen!2sph!4v1744794439866!5m2!1sen!2sph" width="600" height="450" loading="lazy"></iframe>
-                            <div className='ml-0 mr-0 justify-center flex flex-wrap bg-amber-50 box-border'>
+                            <div className='ml-0 mr-0 justify-center flex flex-wrap bg-amber-50 box-border font-georgia'>
                                 {/* QR DETAILS */}
                                 <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-screen min-h-[1px] mr-[-15px] ml-[-15px] box-border block'>
                                     <div className='pl-[15px] pr-[15px]'>

@@ -14,7 +14,7 @@ const DresscodeM = () => {
         </div>
         {/* TITLE */}
         <div className='absolute top-0 left-0 z-0 box-border block'>
-            <h2 className='text-moss -rotate-90 absolute m-0 whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[22rem] left-[-2.5rem] text-[4rem] leading-[0.9]'>Theme</h2>
+            <h2 className='text-moss -rotate-90 absolute m-0 whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[22rem] left-[0rem] text-[3.2rem] leading-[0.9]'>Theme</h2>
         </div>
         {/* CONTENT */}
         <div id='themeM' className='z-0 pr-0 pl-0 ml-auto grow-0 shrink-0 basis-[70%] max-w-[70%] relative w-[100%] min-h-[1px] box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
@@ -25,7 +25,7 @@ const DresscodeM = () => {
                         <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pl-[15px] pr-[15px] box-border block'>
                             {/* TITLE */}
                             <div className='box-border block pl-[15px] pr-[15px]'>
-                                <a className='text-moss text-[2rem] leading-[1] text-center'>Dress Code</a>
+                                <h3 className='text-moss text-[2rem] leading-[1] text-center'>Dress Code</h3>
                             </div>
                             {/* IMAGE */}
                             <div className='w-[100%] h-[15rem] relative z-1 pointer-events-none box-border block intersect-once'>

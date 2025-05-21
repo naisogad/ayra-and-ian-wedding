@@ -18,10 +18,10 @@ const PhotosM = () => {
             </div>
             {/* TITLE */}
             <div className='absolute top-0 left-0 z-0 box-border block'>
-                <h2 className='-rotate-90 text-moss absolute whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[17rem] left-[-5.5rem] text-[4rem] leading-[0.9] intersect-once intersect:motion-preset-slide-up motion-duration-1000'>Our Story</h2>
+                <h2 className='-rotate-90 text-moss absolute whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[17rem] left-[-3.9rem] text-[3.2rem] leading-[0.9] intersect-once intersect:motion-preset-slide-up motion-duration-1000'>Our Story</h2>
             </div>
             {/* IMAGES CONTAINER */}
-            <div className='z-0 ml-auto grow-0 shrink-0 basis-[75%] max-w-[75%] min-h-[1px] box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
+            <div className='z-0 ml-auto grow-0 shrink-0 basis-[70%] max-w-[70%] min-h-[1px] box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>
               <div className='justify-end flex flex-wrap box-border'>
                 {/* IMAGE COLUMN */}
                 <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pl-[15px] pr-[15px] bg-amber-50 box-border block'>

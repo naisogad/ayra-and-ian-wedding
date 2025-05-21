@@ -10,8 +10,14 @@
 @theme inline {
   --color-stain: #ebe4bb;
   --color-moss: #527d39;
-  --font-georgia: Georgia, 'Times New Roman', Times, serif;
   --color-shadow: #EBE4BB;
+  --font-greatVibesR: Great Vibes Regular, "san-serif";
+  --font-earlyWinter: Early Winter, "san-serif";
+  --font-whisperingSignature: Whispering Signature, "san-serif";
+  --font-elegantWedding: Elegant Wedding, "san-serif";
+  --font-geotica: Geotica Three Regular, "san-serif";
+  --font-georgia: Georgia, 'Times New Roman', Times, serif;
+  --font-lobster: Lobster, 'san-serif';
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,3 +31,27 @@ p {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+@font-face {
+  font-family: Great Vibes Regular;
+  src: url('./fonts/GreatVibes-Regular.ttf');
+}
+
+@font-face {
+  font-family: Early Winter;
+  src: url('./fonts/EarlyWinterDemoRegular.ttf');
+}
+
+@font-face {
+  font-family: Whispering Signature;
+  src: url('./fonts/WhisperingSignature.ttf');
+}
+
+@font-face {
+  font-family: Elegant Wedding;
+  src: url('./fonts/ElegantWeddingDemoRegular.ttf');
+}
+
+@font-face {
+  font-family: Geotica Three Regular;
+  src: url('./fonts/GeoticaThree-Regular.woff2');
+}
