@@ -25,7 +25,7 @@ const ScheduleM = () => {
 
         };
 
-        const [activeItem, setActiveItem] = useState('p1');
+        const [activeItem, setActiveItem] = useState('s1');
                   
             const handleItem = (item) => {
             setActiveItem(item);
@@ -48,21 +48,21 @@ const ScheduleM = () => {
                             {/* LIST */}
                             <div className='box-border block text-right'>
                                 <p className='text-moss text-[1.2rem]'>Sunday, November 28 <br /> 9:00 am</p>
-                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('ps')} className='text-moss text-[1.9rem] leading-[1] box-border hover:underline'>
+                                <a onClick={toggleNav} onClickCapture={() => {handleNavigation('ps'); handleItem('s1')}} className='text-moss text-[1.9rem] leading-[1] box-border hover:underline'>
                                     Preparation
                                     <p className='text-moss text-[1.125rem] leading-[1.7] break-normal overflow-hidden relative z-2 mt-0 mb-[2.5rem] block font-medium'>+ View Details</p>
                                 </a>
                             </div>
                             <div className='box-border block text-right'>
                             <p className='text-moss text-[1.2rem]'>Sunday, November 28 <br /> 4:00 pm</p>
-                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('ss')} className='text-moss text-[1.9rem] leading-[1] box-border hover:underline'>
+                                <a onClick={toggleNav} onClickCapture={() => {handleNavigation('ss'); handleItem('s2')}} className='text-moss text-[1.9rem] leading-[1] box-border hover:underline'>
                                     Ceremony
                                     <p className='text-moss text-[1.125rem] leading-[1.7] break-normal overflow-hidden relative z-2 mt-0 mb-[2.5rem] block font-medium'>+ View Details</p>
                                 </a>
                             </div>
                             <div className='box-border block text-right'>
                             <p className='text-moss text-[1.2rem]'>Sunday, November 28 <br /> 6:00 pm</p>
-                                <a onClick={toggleNav} onClickCapture={() => handleNavigation('rc')} className='text-moss text-[1.9rem] leading-[1] box-border hover:underline'>
+                                <a onClick={toggleNav} onClickCapture={() => {handleNavigation('rc'); handleItem('s3')}} className='text-moss text-[1.9rem] leading-[1] box-border hover:underline'>
                                     Reception
                                     <p className='text-moss text-[1.125rem] leading-[1.7] break-normal overflow-hidden relative z-2 mt-0 mb-[2.5rem] block font-medium'>+ View Details</p>
                                 </a>
