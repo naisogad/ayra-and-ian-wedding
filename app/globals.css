@@ -18,6 +18,7 @@
   --font-geotica: Geotica Three Regular, "san-serif";
   --font-georgia: Georgia, 'Times New Roman', Times, serif;
   --font-lobster: Lobster, 'san-serif';
+  --font-calligraphyBrilliant: Calligraphy Brilliant, 'san-serif';
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,4 +55,9 @@ p {
 @font-face {
   font-family: Geotica Three Regular;
   src: url('./fonts/GeoticaThree-Regular.woff2');
+}
+
+@font-face {
+  font-family: Calligraphy Brilliant;
+  src: url('./fonts/Calligraphy Brilliant.ttf');
 }
