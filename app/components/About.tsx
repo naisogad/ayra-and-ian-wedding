@@ -13,7 +13,7 @@ const About = () => {
                     </div>
                 </div>
                 {/* MESSAGE */}
-                <div className='grow-0 shrink-0 basis-[66.66%] max-w-[66.66%] relative w-full min-h-[1px] p-4 box-border block bg-shadow'>
+                <div className='grow-0 shrink-0 basis-[66.66%] max-w-[66.66%] relative w-full min-h-[1px] p-4 box-border block bg-amber-50'>
                     <p className='text-moss text-[1.125rem] leading-[1.7] mt-0 mb-[1rem] intersect-once intersect:motion-preset-slide-left motion-duration-1000'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus. Nulla pellentesque mi turpis, vitae egestas turpis feugiat sed. Donec sit amet aliquet ipsum, sit amet sagittis dui. Morbi rutrum erat condimentum lorem sollicitudin, eu sodales mi laoreet. Pellentesque id scelerisque arcu. Sed viverra, dolor a pharetra congue, nisl urna congue justo, lobortis malesuada neque orci et risus. Quisque tincidunt odio vel nunc ullamcorper, eu commodo turpis tincidunt. Mauris lobortis lacinia volutpat. Aliquam lobortis bibendum urna, nec laoreet dolor pellentesque quis.</p>
                     <p className='text-moss text-[1.125rem] leading-[1.7] mt-0 font-semibold intersect-once intersect:motion-preset-slide-left motion-duration-1200'>- Ayra & Ian</p>
                 </div>

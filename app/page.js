@@ -13,11 +13,12 @@ import Abays from "./components/Abays";
 import AbaysM from "./components/AbaysM";
 import Link from 'next/link';
 import ScheduleM from "./components/ScheduleM";
-import DresscodeM from "./components/DresscodeM";
+import ThemeM from "./components/ThemeM";
 import GalleryM from "./components/GalleryM";
 import RSVPM from "./components/RSVPM";
 import FAQsM from "./components/FAQsM";
 import Schedule from "./components/Schedule";
+import Theme from "./components/Theme";
 
 
 export default function Home() {
@@ -65,6 +66,7 @@ export default function Home() {
       <Couple />
       <Abays />
       <Schedule />
+      <Theme />
     </div>
     <div className="mr-auto ml-auto w-full 2x1:max-w-[1510px] xl:max-w-[1220px] lg:max-w-[984px] md:max-w-[720px] sm:max-w-[640px] overflow-x-hidden">
     {/* <div className="mr-auto ml-auto w-full 2x1:max-w-[1510px] xl:max-w-[1220px] lg:max-w-[984px] md:max-w-[500px]"> */}
@@ -73,7 +75,7 @@ export default function Home() {
       <CoupleM />
       <AbaysM />
       <ScheduleM />
-      <DresscodeM />
+      <ThemeM />
       <GalleryM />
       <RSVPM />
       <FAQsM />

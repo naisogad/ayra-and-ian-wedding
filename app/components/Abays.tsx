@@ -23,7 +23,7 @@ const Abays = () => {
           };
 
   return (
-    <section className='hidden md:flex pt-[2.5rem] pb-[2.5rem] relative justify-center flex-wrap mr-[-15px] ml-[-15px] mb-[4rem] box-border'>
+    <section className='hidden md:flex pt-[2.5rem] pb-[2.5rem] relative justify-center flex-wrap mr-[-15px] ml-[-15px] mb-[4rem] mt-[8rem] box-border'>
         <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
             {/* FLOWER */}
             <div className='top-[0rem] right-[-4rem] h-[12rem] rotate-20 w-[22rem] z-1 absolute box-border block'>
@@ -202,7 +202,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 1 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -223,7 +223,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 2 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -244,7 +244,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 3 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -265,7 +265,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 4 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -287,7 +287,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 1 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -308,7 +308,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 2 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -329,7 +329,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 3 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -350,7 +350,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 4 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -372,7 +372,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 1 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -393,7 +393,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 2 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -414,7 +414,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 3 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -435,7 +435,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 4 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -457,7 +457,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 1 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -478,7 +478,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 2 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -499,7 +499,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 3 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -520,7 +520,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 4 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -542,7 +542,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 1 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -563,7 +563,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 2 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -584,7 +584,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 3 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -605,7 +605,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 4 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -627,7 +627,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 1 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -648,7 +648,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 2 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -669,7 +669,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 3 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
@@ -690,7 +690,7 @@ const Abays = () => {
                                                   />
                                                 </div>
                                                 {/* DETAILS 4 */}
-                                                <div className=' bg-shadow p-4'>
+                                                <div className=' bg-amber-50 p-4'>
                                                     <h4 className='text-[1.8rem] text-moss leading-[1.5]'>Pellentesque Id</h4>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem Ipsum: Muspi Merol</p>
                                                     <p className='leading-[1.7] text-[1.125rem] text-moss mb-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>

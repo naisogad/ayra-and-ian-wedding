@@ -16,7 +16,7 @@ const Schedule = () => {
         };
 
   return (
-    <section className='pt-10 pb-10 relative justify-center flex flex-wrap -mr-4 -ml-4 box-border'>
+    <section className='hidden md:flex pt-10 pb-10 relative justify-center flex-wrap -mr-4 -ml-4 box-border mt-[10rem]'>
         <div className='grow-0 shrink-0 basis-full max-w-full relative w-full min-h-1 box-border block'>
             {/* IMAGE */}
             <div className='top-0 -left-30 w-[19rem] h-[29rem] absolute box-border block'>
@@ -67,7 +67,7 @@ const Schedule = () => {
                                     </ul>
                                 </div>
                                 {/* DETAILS */}
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-shadow box-border block'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-amber-50 box-border block'>
                                     {/* CONTENT */}
                                     <div className='box-border block text-moss'>
                                         {/* TITLE */}
@@ -85,7 +85,7 @@ const Schedule = () => {
                                     </ul>
                                 </div>
                                 {/* DETAILS */}
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-shadow box-border block'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-amber-50 box-border block'>
                                     {/* CONTENT */}
                                     <div className='box-border block text-moss'>
                                         {/* TITLE */}
@@ -103,7 +103,7 @@ const Schedule = () => {
                                     </ul>
                                 </div>
                                 {/* DETAILS */}
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-shadow box-border block'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-amber-50 box-border block'>
                                     {/* CONTENT */}
                                     <div className='box-border block text-moss'>
                                         {/* TITLE */}
@@ -121,7 +121,7 @@ const Schedule = () => {
                                     </ul>
                                 </div>
                                 {/* DETAILS */}
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-shadow box-border block'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-amber-50 box-border block'>
                                     {/* CONTENT */}
                                     <div className='box-border block text-moss'>
                                         {/* TITLE */}
@@ -139,7 +139,7 @@ const Schedule = () => {
                                     </ul>
                                 </div>
                                 {/* DETAILS */}
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-shadow box-border block'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-amber-50 box-border block'>
                                     {/* CONTENT */}
                                     <div className='box-border block text-moss'>
                                         {/* TITLE */}
@@ -157,7 +157,7 @@ const Schedule = () => {
                                     </ul>
                                 </div>
                                 {/* DETAILS */}
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-shadow box-border block'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-amber-50 box-border block'>
                                     {/* CONTENT */}
                                     <div className='box-border block text-moss'>
                                         {/* TITLE */}
@@ -175,7 +175,7 @@ const Schedule = () => {
                                     </ul>
                                 </div>
                                 {/* DETAILS */}
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-shadow box-border block'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-amber-50 box-border block'>
                                     {/* CONTENT */}
                                     <div className='box-border block text-moss'>
                                         {/* TITLE */}
@@ -209,7 +209,7 @@ const Schedule = () => {
                                 </div>
                                 {/* LOCATION DETAILS */}
                                 <div className='border-solid border-r-1 border-moss text-right ml-auto grow-0 shrink-0 basis-[33%] max-w-[33%] relative min-h-0.5 pr-4 pl-4 box-border block'></div>
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-[1] pl-4 pr-4 pb-4 box-border block bg-shadow'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-[1] pl-4 pr-4 pb-4 box-border block bg-amber-50'>
                                     <div className='box-border block text-moss'>
                                         <div className='pl-[15px] pr-[15px'>
                                             <h3 className='text-[2rem] mt-[0.75rem] mb-[0.75rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2 font-georgia'>GP Suites</h3>
@@ -221,7 +221,7 @@ const Schedule = () => {
                                 </div>
                                 {/* LOCATION MAP */}
                                 <div className='border-solid border-r-1 border-moss text-right ml-auto grow-0 shrink-0 basis-[33%] max-w-[33%] relative min-h-0.5 pr-4 pl-4 box-border block'></div>
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-[1] pl-4 pr-4 pb-8 box-border block bg-shadow'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-[1] pl-4 pr-4 pb-8 box-border block bg-amber-50'>
                                     <div className='box-border flex justify-center'>
                                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d814.0751945026327!2d121.46153672697085!3d13.933815191774528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd49cb80d4e9d5%3A0x9ddfb10f5d78e0b7!2sGP%20SUITES!5e0!3m2!1sen!2sph!4v1744793361235!5m2!1sen!2sph" width="600" height="450"  loading="lazy">
                                         </iframe>
@@ -250,7 +250,7 @@ const Schedule = () => {
                                     </ul>
                                 </div>
                                 {/* DETAILS */}
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-shadow box-border block'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-amber-50 box-border block'>
                                     {/* CONTENT */}
                                     <div className='box-border block text-moss'>
                                         {/* TITLE */}
@@ -268,7 +268,7 @@ const Schedule = () => {
                                     </ul>
                                 </div>
                                 {/* DETAILS */}
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-shadow box-border block'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-amber-50 box-border block'>
                                     {/* CONTENT */}
                                     <div className='box-border block text-moss'>
                                         {/* TITLE */}
@@ -301,7 +301,7 @@ const Schedule = () => {
                                 </div>
                                 {/* LOCATION DETAILS */}
                                 <div className='border-solid border-r-1 border-moss text-right ml-auto grow-0 shrink-0 basis-[33%] max-w-[33%] relative min-h-0.5 pr-4 pl-4 box-border block'></div>
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-[1] pl-4 pr-4 pb-4 box-border block bg-shadow'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-[1] pl-4 pr-4 pb-4 box-border block bg-amber-50'>
                                     <div className='box-border block text-moss'>
                                         <div className='pl-[15px] pr-[15px'>
                                             <h3 className='text-[2rem] mt-[0.75rem] mb-[0.75rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2 font-georgia'>GP Events Place</h3>
@@ -313,7 +313,7 @@ const Schedule = () => {
                                 </div>
                                 {/* LOCATION MAP */}
                                 <div className='border-solid border-r-1 border-moss text-right ml-auto grow-0 shrink-0 basis-[33%] max-w-[33%] relative min-h-0.5 pr-4 pl-4 box-border block'></div>
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-[1] pl-4 pr-4 pb-8 box-border block bg-shadow'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-[1] pl-4 pr-4 pb-8 box-border block bg-amber-50'>
                                     <div className='box-border flex justify-center'>
                                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d814.0751945026327!2d121.46153672697085!3d13.933815191774528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd4891f3a3b319%3A0xa47782049fa77391!2sGP%20Events%20Place!5e0!3m2!1sen!2sph!4v1744794439866!5m2!1sen!2sph" width="600" height="450"  loading="lazy">
                                         </iframe>
@@ -341,7 +341,7 @@ const Schedule = () => {
                                     </ul>
                                 </div>
                                 {/* DETAILS */}
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-shadow box-border block'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-amber-50 box-border block'>
                                     {/* CONTENT */}
                                     <div className='box-border block text-moss'>
                                         {/* TITLE */}
@@ -359,7 +359,7 @@ const Schedule = () => {
                                     </ul>
                                 </div>
                                 {/* DETAILS */}
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-shadow box-border block'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-amber-50 box-border block'>
                                     {/* CONTENT */}
                                     <div className='box-border block text-moss'>
                                         {/* TITLE */}
@@ -377,7 +377,7 @@ const Schedule = () => {
                                     </ul>
                                 </div>
                                 {/* DETAILS */}
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-shadow box-border block'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-amber-50 box-border block'>
                                     {/* CONTENT */}
                                     <div className='box-border block text-moss'>
                                         {/* TITLE */}
@@ -395,7 +395,7 @@ const Schedule = () => {
                                     </ul>
                                 </div>
                                 {/* DETAILS */}
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-shadow box-border block'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-amber-50 box-border block'>
                                     {/* CONTENT */}
                                     <div className='box-border block text-moss'>
                                         {/* TITLE */}
@@ -413,7 +413,7 @@ const Schedule = () => {
                                     </ul>
                                 </div>
                                 {/* DETAILS */}
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-shadow box-border block'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-amber-50 box-border block'>
                                     {/* CONTENT */}
                                     <div className='box-border block text-moss'>
                                         {/* TITLE */}
@@ -431,7 +431,7 @@ const Schedule = () => {
                                     </ul>
                                 </div>
                                 {/* DETAILS */}
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-shadow box-border block'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-0.5 pl-4 pr-4 pt-2 pb-2 mb-2 bg-amber-50 box-border block'>
                                     {/* CONTENT */}
                                     <div className='box-border block text-moss'>
                                         {/* TITLE */}
@@ -464,7 +464,7 @@ const Schedule = () => {
                                 </div>
                                 {/* LOCATION DETAILS */}
                                 <div className='border-solid border-r-1 border-moss text-right ml-auto grow-0 shrink-0 basis-[33%] max-w-[33%] relative min-h-0.5 pr-4 pl-4 box-border block'></div>
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-[1] pl-4 pr-4 pb-4 box-border block bg-shadow'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-[1] pl-4 pr-4 pb-4 box-border block bg-amber-50'>
                                     <div className='box-border block text-moss'>
                                         <div className='pl-[15px] pr-[15px'>
                                             <h3 className='text-[2rem] mt-[0.75rem] mb-[0.75rem] leading-[1.5] overflow-hidden text-ellipsis relative z-2 font-georgia'>GP Events Place</h3>
@@ -476,7 +476,7 @@ const Schedule = () => {
                                 </div>
                                 {/* LOCATION MAP */}
                                 <div className='border-solid border-r-1 border-moss text-right ml-auto grow-0 shrink-0 basis-[33%] max-w-[33%] relative min-h-0.5 pr-4 pl-4 box-border block'></div>
-                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-[1] pl-4 pr-4 pb-8 box-border block bg-shadow'>
+                                <div className='ml-auto grow-0 shrink-0 basis-[58%] max-w-[58%] relative min-h-[1] pl-4 pr-4 pb-8 box-border block bg-amber-50'>
                                     <div className='box-border flex justify-center'>
                                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d814.0751945026327!2d121.46153672697085!3d13.933815191774528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd4891f3a3b319%3A0xa47782049fa77391!2sGP%20Events%20Place!5e0!3m2!1sen!2sph!4v1744794439866!5m2!1sen!2sph" width="600" height="450"  loading="lazy">
                                         </iframe>
