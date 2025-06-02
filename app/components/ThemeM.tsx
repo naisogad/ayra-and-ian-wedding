@@ -37,15 +37,25 @@ const ThemeM = () => {
                                 />
                             </div>
                             {/* CONTENT */}
-                            <div className='box-border block text-left pl-[15px] pr-[15px] mb-[2.5rem]'>
+                            <div className='box-border block text-left pl-[15px] pr-[15px] mb-[1rem]'>
                                 <p className='text-moss text-[1.125rem]'>We kindly ask our guests to dress in semi-formal or smart casual attire for our special day.</p>
+                            </div>
+                            <div className='box-border block text-left pl-[15px] pr-[15px] mb-[1rem]'>
+                                <p className='text-moss text-[1.125rem]'><p className='font-semibold inline-block'>Ladies:</p> Floor-length gowns or elegant cocktail dresses.</p>
+                            </div>
+                            <div className='box-border block text-left pl-[15px] pr-[15px] mb-[4rem]'>
+                                <p className='text-moss text-[1.125rem]'><p className='font-semibold inline-block'>Gentlemen:</p> Tuxedos or dark suits with tie.</p>
                             </div>
                             {/* TITLE */}
                             <div className='box-border block pl-[15px] pr-[15px]'>
-                                <h3 className='text-moss text-[2rem] leading-[1] text-center'>Color Motif</h3>
+                                <h3 className='text-moss text-[2rem] leading-[1.5] text-center'>Color Motif</h3>
+                            </div>
+                            {/* DETAIL */}
+                            <div className='box-border block text-left pl-[15px] pr-[15px] mt-6'>
+                                <p className='text-moss text-[1.125rem]'>Our wedding will feature these elegant colors. Feel free to incorporate them into your outfit! Lastly guests, wear your best accessories. Your smiles and lively personalities.    </p>
                             </div>
                             {/* COLORS */}
-                            <div className='flex flex-wrap justify-center gap-[1.1rem] text-center mt-[1.5rem] mb-[3rem]'>
+                            <div className='flex flex-wrap justify-center gap-[1.1rem] text-center mt-[2rem] mb-[3rem]'>
                                 {/* COLOR 1 */}
                                 <div className='items-center flex flex-col box-border'>
                                     <div className='bg-moss rounded-full w-[4rem] h-[4rem]'></div>

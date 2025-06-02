@@ -26,11 +26,11 @@ const PhotosM = () => {
                 {/* IMAGE COLUMN */}
                 <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pl-[15px] pr-[15px] bg-amber-50 box-border block'>
                   <div className='flex flex-wrap box-border pt-[2rem] pb-[2rem]'>
-                     <ImageFlip frontImageSrc={'/pictures/couple-1.jpg'} backContent={undefined} />
-                     <ImageFlip frontImageSrc={'/pictures/couple-2.jpg'} backContent={undefined} />
-                     <ImageFlip frontImageSrc={'/pictures/couple-3.jpg'} backContent={undefined} />
-                     <ImageFlip frontImageSrc={'/pictures/couple-4.jpg'} backContent={undefined} />
-                     <ImageFlip frontImageSrc={'/pictures/couple-5.jpg'} backContent={undefined} />
+                     <ImageFlip frontImageSrc={'/pictures/couple-1.jpg'} backContent={undefined} height={500} width={300}/>
+                     <ImageFlip frontImageSrc={'/pictures/couple-2.jpg'} backContent={undefined} height={500} width={300}/>
+                     <ImageFlip frontImageSrc={'/pictures/couple-3.jpg'} backContent={undefined} height={500} width={300}/>
+                     <ImageFlip frontImageSrc={'/pictures/couple-4.jpg'} backContent={undefined} height={500} width={300}/>
+                     <ImageFlip frontImageSrc={'/pictures/couple-5.jpg'} backContent={undefined} height={500} width={300}/>
                   </div>
                 </div>
               </div>

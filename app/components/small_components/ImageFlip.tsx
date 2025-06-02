@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image'
 
-const ImageFlip = ({ frontImageSrc, backContent, width = 300, height = 500, alt = "Flipping card" }) => {
+const ImageFlip = ({ frontImageSrc, backContent, width, height, alt = "Flipping card" }) => {
      const [isFlipped, setIsFlipped] = useState(false);
     
       const handleClick = () => {

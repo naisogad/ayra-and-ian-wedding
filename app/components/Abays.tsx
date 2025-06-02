@@ -45,7 +45,7 @@ const Abays = () => {
                         <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
                             <div className='flex flex-wrap mr-[-15px] ml-[-15px] box-border'>
                                 {/* RIGHT-LEFT CONTAINER */}
-                                <div className='text-right grow-0 shrink-0 basis-[41%] max-w-[41%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block border-solid border-r-2 border-r-moss'>
+                                <div className='text-right grow-0 shrink-0 basis-[41%] max-w-[41%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block border-solid border-r-1 border-r-moss'>
                                     {/* CONTENT */}
                                     <div className='box-border block'>
                                         {/* CONTENT 1 */}

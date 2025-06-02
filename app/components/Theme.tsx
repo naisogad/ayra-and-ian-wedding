@@ -39,8 +39,14 @@ const Theme = () => {
                             />
                         </div>
                         {/* CONTENT */}
-                        <div className='box-border block text-left pl-[15px] pr-[15px] mb-[2.5rem] mt-[3.5rem]'>
+                        <div className='box-border block text-left pl-[15px] pr-[15px] mb-[1rem] mt-[3.5rem]'>
                             <p className='text-moss text-[1.125rem]'>We kindly ask our guests to dress in semi-formal or smart casual attire for our special day.</p>
+                        </div>
+                        <div className='box-border block text-left pl-[15px] pr-[15px] mb-[1rem]'>
+                            <p className='text-moss text-[1.125rem]'><a className='font-semibold inline-block'>Ladies:</a> Floor-length gowns or elegant cocktail dresses.</p>
+                        </div>
+                        <div className='box-border block text-left pl-[15px] pr-[15px] mb-[1rem]'>
+                            <p className='text-moss text-[1.125rem]'><a className='font-semibold inline-block'>Gentlemen:</a> Tuxedos or dark suits with tie.</p>
                         </div>
                         {/* TITLE */}
                         <div className='box-border block pl-[15px] pr-[15px]'>
@@ -48,6 +54,10 @@ const Theme = () => {
                         </div>
                         {/* COLORS */}
                         <div className='flex flex-wrap justify-center gap-[4rem] text-center mt-[1.5rem] mb-[3rem]'>
+                            {/* DETAIL */}
+                            <div className='box-border block text-left pl-[15px] pr-[15px]'>
+                                <p className='text-moss text-[1.125rem]'>Our wedding will feature these elegant colors. Feel free to incorporate them into your outfit! Lastly guests, wear your best accessories. Your smiles and lively personalities.    </p>
+                            </div>
                             {/* COLOR 1 */}
                             <div className='items-center flex flex-col box-border'>
                                 <div className='bg-moss rounded-full w-[4rem] h-[4rem]'></div>
