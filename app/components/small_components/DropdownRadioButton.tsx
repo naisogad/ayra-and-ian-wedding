@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-const DropdownRadioButton = ({ options, defaultValue, onChange }) => {
+const DropdownRadioButton = ({ options, defaultValue, onChange, width}) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(defaultValue || null);
   const dropdownRef = useRef(null);
@@ -107,7 +107,7 @@ const DropdownRadioButton = ({ options, defaultValue, onChange }) => {
 
 
   return (
-    <div className='h-[2.5rem] w-[97%] mb-[0.3rem]' ref={dropdownRef}>
+    <div className='h-[2.5rem] mb-[0.3rem]' ref={dropdownRef} style={{ width: `${width}%` }}>
       <button
         type="button"
         className=' bg-shadow text-left items-center pl-[1rem] pt-[0.3rem] pb-[0.5rem] w-full'
@@ -138,7 +138,8 @@ const DropdownRadioButton = ({ options, defaultValue, onChange }) => {
         <ul
           id="custom-dropdown-list"
           role="listbox"
-          className='absolute z-1 mt-0 w-[97%] bg-shadow outline-[0.5px]'
+          className='absolute z-1 mt-0 bg-shadow outline-[0.5px]'
+          style={{ width: `${width}%` }}
           ref={optionsListRef}
         >
           {options.map((option, index) => (

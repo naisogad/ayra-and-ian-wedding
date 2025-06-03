@@ -41,10 +41,10 @@ const ThemeM = () => {
                                 <p className='text-moss text-[1.125rem]'>We kindly ask our guests to dress in semi-formal or smart casual attire for our special day.</p>
                             </div>
                             <div className='box-border block text-left pl-[15px] pr-[15px] mb-[1rem]'>
-                                <p className='text-moss text-[1.125rem]'><p className='font-semibold inline-block'>Ladies:</p> Floor-length gowns or elegant cocktail dresses.</p>
+                                <p className='text-moss text-[1.125rem]'><a className='font-semibold inline-block'>Ladies:</a> Floor-length gowns or elegant cocktail dresses.</p>
                             </div>
                             <div className='box-border block text-left pl-[15px] pr-[15px] mb-[4rem]'>
-                                <p className='text-moss text-[1.125rem]'><p className='font-semibold inline-block'>Gentlemen:</p> Tuxedos or dark suits with tie.</p>
+                                <p className='text-moss text-[1.125rem]'><a className='font-semibold inline-block'>Gentlemen:</a> Tuxedos or dark suits with tie.</p>
                             </div>
                             {/* TITLE */}
                             <div className='box-border block pl-[15px] pr-[15px]'>

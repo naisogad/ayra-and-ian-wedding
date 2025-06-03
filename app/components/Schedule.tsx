@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 const Schedule = () => {
 
-    const [activeItem, setActiveItem] = useState('');
+    const [activeItem, setActiveItem] = useState('p1');
           
         const handleItem = (item) => {
             if (activeItem === item) {
@@ -16,7 +16,7 @@ const Schedule = () => {
         };
 
   return (
-    <section className='hidden md:flex pt-10 pb-10 relative justify-center flex-wrap -mr-4 -ml-4 box-border mt-[10rem]'>
+    <section id='schedule' className='hidden md:flex pt-10 pb-10 relative justify-center flex-wrap -mr-4 -ml-4 box-border mt-[10rem]'>
         <div className='grow-0 shrink-0 basis-full max-w-full relative w-full min-h-1 box-border block'>
             {/* IMAGE */}
             <div className='top-0 -left-30 w-[19rem] h-[29rem] absolute box-border block'>

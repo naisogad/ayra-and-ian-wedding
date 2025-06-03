@@ -23,7 +23,7 @@ const Abays = () => {
           };
 
   return (
-    <section className='hidden md:flex pt-[2.5rem] pb-[2.5rem] relative justify-center flex-wrap mr-[-15px] ml-[-15px] mb-[4rem] mt-[8rem] box-border'>
+    <section id='abays' className='hidden md:flex pt-[2.5rem] pb-[2.5rem] relative justify-center flex-wrap mr-[-15px] ml-[-15px] mb-[4rem] mt-[8rem] box-border'>
         <div className='grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
             {/* FLOWER */}
             <div className='top-[0rem] right-[-4rem] h-[12rem] rotate-20 w-[22rem] z-1 absolute box-border block'>
@@ -38,6 +38,7 @@ const Abays = () => {
             <div className='mt-[5rem] flex flex-wrap mr-[-15px] ml-[-15px] box-border'>
                 {/* LEFT CONTAINER */}
                 <div className='h-auto grow-0 shrink-0 basis-[33%] max-w-[33%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
+                    <h2 className='text-moss mt-[1.5rem] top-[-6rem] left-[-8rem] text-[6rem] leading-[2] text-center absolute whitespace-nowrap text-ellipsis box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>Abays</h2>
                 </div>
                 {/* RIGHT CONTAINER */}
                 <div className='grow-0 shrink-0 basis-[66%] max-w-[66%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>

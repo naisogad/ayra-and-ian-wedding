@@ -54,7 +54,7 @@ const RSVPM = () => {
                               <input type="text" placeholder='your name here' className='bg-white w-[97%] h-[2.5rem] inline-block pl-[1rem] mb-[0.5rem] outline-none appearance-none border-2 border-shadow'/>
                           </span>
                           <span className='whitespace-normal inline text-ellipsis overflow-hidden'>,</span>
-                          <DropdownRadioButton options={options} defaultValue="am attending" onChange={handleDropdownChange} />
+                          <DropdownRadioButton options={options} defaultValue="am attending" onChange={handleDropdownChange} width={97}/>
                           <span>the festivities.</span>                         
                       </div>
                       {/* EVENT FORM

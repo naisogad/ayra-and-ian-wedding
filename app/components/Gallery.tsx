@@ -4,7 +4,7 @@ import ImageFlip from './small_components/ImageFlip';
 
 const Gallery = () => {
   return (
-    <section className='hidden md:flex pt-[2.5rem] pb-[2.5rem] mb-[1rem] mt-[5rem] relative justify-center flex-wrap box-border'>
+    <section id='gallery' className='hidden md:flex pt-[2.5rem] pb-[2.5rem] mb-[1rem] mt-[5rem] relative justify-center flex-wrap box-border'>
         {/* CONTAINER */}
         <div className='grow-0 shrink-0 basis-full max-w-full relative w-full min-h[1px] pr-4 pl-4 box-border block'>
             <div className='justify-center flex flex-wrap -mr-4 -ml-4 box-border'>
@@ -65,7 +65,7 @@ const Gallery = () => {
                             <div className='bottom-[-3rem] left-[2rem] w-[6rem] h-[8rem] absolute z-1 box-border'>
                                 <Image 
                                     src={'/flowers/floater_15.png'}
-                                    alt=''
+                                    alt='' 
                                     fill
                                     className='object-fit'
                                 />
