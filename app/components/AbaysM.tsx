@@ -45,7 +45,7 @@ const AbaysM = () => {
         </div>
         {/* TITLE */}
         <div className='absolute top-0 left-0 z-0 box-border block intersect-once intersect:motion-preset-slide-up motion-duration-1000'>
-            <h2 className='text-moss -rotate-90 absolute m-0 whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[30rem] left-[-9rem] text-[3.2rem] leading-[0.9]'>Wedding Abays</h2>
+            <h2 className='text-moss -rotate-90 absolute m-0 whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[23rem] left-[-2rem] text-[3.2rem] leading-[0.9]'>Abays</h2>
         </div>
         {/* CONTENT */}
         <div id='abaysM' className='z-0 pr-0 pl-0 ml-auto grow-0 shrink-0 basis-[70%] max-w-[70%] relative w-[100%] min-h-[1px] box-border block intersect-once intersect:motion-preset-slide-left motion-duration-1000'>

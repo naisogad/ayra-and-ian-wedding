@@ -24,8 +24,10 @@ const RSVP = () => {
     };
 
   return (
-    <section className='hidden md:flex pb-[1rem] min-h-screen pt-[2.5rem] mb-[1rem] relative justify-center flex-wrap -mr-4 -ml-4 box-border mt-[20rem]'>
+    <section className='hidden md:flex pb-[1rem] pt-[2.5rem] mb-[1rem] relative justify-center flex-wrap -mr-4 -ml-4 box-border mt-[5rem]'>
         {/* MAIN CONTAINER */}
+        <div id='rsvp' className='h-[5rem] w-full'></div>
+        <div className='h-[10rem] w-full '></div>
         <div className='grow-0 shrink-0 basis-full min-w-full relative w-full min-h-[1px] pr-4 pl-4 box-border block'>
             <div className='justify-end flex flex-wrap -ml-4 -mr-4 box-border'>
                 {/* LEFT CONTAINER */}
@@ -59,7 +61,9 @@ const RSVP = () => {
                 </div>
                 {/* RIGHT CONTAINER */}
                 <div className='grow-0 shrink-0 basis-[16%] min-w-[16%] relative w-full min-h-[1px] pr-4 pl-4 box-border block'>
-                    <div id='rsvp' className='top-[-2rem] left-[-10rem] -rotate-90 text-moss text-[6rem] absolute'>RSVP</div>
+                    <div className='box-border block'>
+                        <h2 className='top-[-2rem] left-[-10rem] -rotate-90 text-moss text-[6rem] absolute'>RSVP</h2>
+                    </div>
                 </div>
             </div>
             {/* FLOWER */}

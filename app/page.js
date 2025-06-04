@@ -21,6 +21,7 @@ import Schedule from "./components/Schedule";
 import Theme from "./components/Theme";
 import Gallery from "./components/Gallery";
 import RSVP from "./components/RSVP";
+import FAQs from "./components/FAQs";
 
 
 export default function Home() {
@@ -71,6 +72,7 @@ export default function Home() {
       <Theme />
       <Gallery />
       <RSVP />
+      <FAQs />
     </div>
     <div className="mr-auto ml-auto w-full 2x1:max-w-[1510px] xl:max-w-[1220px] lg:max-w-[984px] md:max-w-[720px] sm:max-w-[640px] overflow-x-hidden">
     {/* <div className="mr-auto ml-auto w-full 2x1:max-w-[1510px] xl:max-w-[1220px] lg:max-w-[984px] md:max-w-[500px]"> */}

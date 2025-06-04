@@ -30,7 +30,7 @@ const Schedule = () => {
             {/* CONTENT */}
             <div className='justify-center flex flex-wrap -mr-4 -ml-4 box-border'>
                 {/* TITLE */}
-                <div className='z-2 grow-0 shrink-0 basis-[91%] max-w-[91%] relative w-full min-h-1 pr-4 pl-4 box-border block'>
+                <div className='z-1 grow-0 shrink-0 basis-[91%] max-w-[91%] relative w-full min-h-1 pr-4 pl-4 box-border block'>
                     <div className='box-border block'>
                         <h2 className='text-moss leading-[1.1] text-right mb-0.5 block text-[6rem]'>Schedule</h2>
                     </div>
