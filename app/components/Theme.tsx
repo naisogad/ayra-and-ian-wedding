@@ -3,11 +3,11 @@ import Image from 'next/image'
 
 const Theme = () => {
   return (
-    <section id='theme' className='hidden md:flex min-h-[600px] relative flex-wrap justify-center -mr-4 -ml-4 box-border text-moss mt-[25rem]'>
+    <section  className='hidden md:flex min-h-[600px] relative flex-wrap justify-center -mr-4 -ml-4 box-border text-moss mt-[25rem]'>
         {/* MAIN CONTAINER */}
         <div className='z-1 grow-0 shrink-0 basis-full max-w-full relative w-full min-h-[1px] pr-4 pl-4 block box-border'>
             {/* FLOWER */}
-            <div className='z-2 w-[22rem] h-[20rem] left-[62rem] top-[-15rem] absolute block box-border rotate-12'>
+            <div id='theme' className='z-2 w-[22rem] h-[20rem] left-[62rem] top-[-15rem] absolute block box-border rotate-12'>
                 <Image 
                     src={'/flowers/floater_5.png'}
                     alt=''
