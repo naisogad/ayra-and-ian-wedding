@@ -9,13 +9,11 @@ const ScheduleM = () => {
     
         const toggleNav = () => {
           setToggleMenu(!toggleMenu);
-          // if (!toggleMenu) {
-          //   document.body.style.overflow = 'hidden';
-          //   document.body.style.paddingRight = '15px'
-          // } else {
-          //   document.body.style.overflow = '';
-          //   document.body.style.paddingRight = ''
-          // }
+          if (!toggleMenu) {
+            document.body.style.overflow = 'hidden';
+          } else {
+            document.body.style.overflow = '';
+          }
         }
 
         const [activeSection, setActiveSection] = useState('ps');

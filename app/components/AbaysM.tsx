@@ -9,13 +9,11 @@ const AbaysM = () => {
     
         const toggleNav = () => {
           setToggleMenu(!toggleMenu);
-          // if (!toggleMenu) {
-          //   document.body.style.overflow = 'hidden';
-          //   document.body.style.paddingRight = '15px'
-          // } else {
-          //   document.body.style.overflow = '';
-          //   document.body.style.paddingRight = ''
-          // }
+          if (!toggleMenu) {
+            document.body.style.overflow = 'hidden';
+          } else {
+            document.body.style.overflow = '';
+          }
         }
 
         const [activeSection, setActiveSection] = useState('ps');
@@ -214,7 +212,7 @@ const AbaysM = () => {
                             <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
                                 <h3 className='text-[2rem] mt-[0.75rem] mb-[0.75rem] leading-[2.5] overflow-hidden text-ellipsis relative z-2 intersect-once intersect:motion-preset-slide-right motion-duration-1000'>Pellentesque Id</h3>
                                 <p className='text-[1.125rem] leading-[1.7] overflow-hidden relative z-2 mt-0 mb-[1rem] box-border block intersect-once intersect:motion-preset-slide-right motion-duration-1200'>Lorem Ipsum: Muspi Merol</p>
-                                <p className='text-[1.125rem] leading-[1.7] overflow-hidden relative z-2 mt-0 mb-[1rem] box-border block intersect-once intersect:motion-preset-slide-right motion-duration-1400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
+                                <p className='text-[1.125rem] leading-[1.7] overflow-hidden relative z-2 mt-0 mb-[1rem] box-border block intersect-once intersect:motion-preset-slide-right motion-duration-1000'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
                             </div>
                         </div>
                     )}
@@ -283,7 +281,7 @@ const AbaysM = () => {
                             <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
                                 <h3 className='text-[2rem] mt-[0.75rem] mb-[0.75rem] leading-[2.5] overflow-hidden text-ellipsis relative z-2 intersect-once intersect:motion-preset-slide-right motion-duration-1000'>Pellentesque Id</h3>
                                 <p className='text-[1.125rem] leading-[1.7] overflow-hidden relative z-2 mt-0 mb-[1rem] box-border block intersect-once intersect:motion-preset-slide-right motion-duration-1200'>Lorem Ipsum: Muspi Merol</p>
-                                <p className='text-[1.125rem] leading-[1.7] overflow-hidden relative z-2 mt-0 mb-[1rem] box-border block intersect-once intersect:motion-preset-slide-right motion-duration-1400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
+                                <p className='text-[1.125rem] leading-[1.7] overflow-hidden relative z-2 mt-0 mb-[1rem] box-border block intersect-once intersect:motion-preset-slide-right motion-duration-1000'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
                             </div>
                         </div>
                     )}
@@ -352,7 +350,7 @@ const AbaysM = () => {
                             <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
                                 <h3 className='text-[2rem] mt-[0.75rem] mb-[0.75rem] leading-[2.5] overflow-hidden text-ellipsis relative z-2 intersect-once intersect:motion-preset-slide-right motion-duration-1000'>Pellentesque Id</h3>
                                 <p className='text-[1.125rem] leading-[1.7] overflow-hidden relative z-2 mt-0 mb-[1rem] box-border block intersect-once intersect:motion-preset-slide-right motion-duration-1200'>Lorem Ipsum: Muspi Merol</p>
-                                <p className='text-[1.125rem] leading-[1.7] overflow-hidden relative z-2 mt-0 mb-[1rem] box-border block intersect-once intersect:motion-preset-slide-right motion-duration-1400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
+                                <p className='text-[1.125rem] leading-[1.7] overflow-hidden relative z-2 mt-0 mb-[1rem] box-border block intersect-once intersect:motion-preset-slide-right motion-duration-1000'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
                             </div>
                         </div>
                     )}
@@ -421,7 +419,7 @@ const AbaysM = () => {
                             <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
                                 <h3 className='text-[2rem] mt-[0.75rem] mb-[0.75rem] leading-[2.5] overflow-hidden text-ellipsis relative z-2 intersect-once intersect:motion-preset-slide-right motion-duration-1000'>Pellentesque Id</h3>
                                 <p className='text-[1.125rem] leading-[1.7] overflow-hidden relative z-2 mt-0 mb-[1rem] box-border block intersect-once intersect:motion-preset-slide-right motion-duration-1200'>Lorem Ipsum: Muspi Merol</p>
-                                <p className='text-[1.125rem] leading-[1.7] overflow-hidden relative z-2 mt-0 mb-[1rem] box-border block intersect-once intersect:motion-preset-slide-right motion-duration-1400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
+                                <p className='text-[1.125rem] leading-[1.7] overflow-hidden relative z-2 mt-0 mb-[1rem] box-border block intersect-once intersect:motion-preset-slide-right motion-duration-1000'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
                             </div>
                         </div>
                     )}
@@ -490,7 +488,7 @@ const AbaysM = () => {
                             <div className='bg-amber-50 text-left text-moss grow-0 shrink-0 basis-[100%] max-w-[100%] relative w-[100%] min-h-[1px] pr-[15px] pl-[15px] box-border block'>
                                 <h3 className='text-[2rem] mt-[0.75rem] mb-[0.75rem] leading-[2.5] overflow-hidden text-ellipsis relative z-2 intersect-once intersect:motion-preset-slide-right motion-duration-1000'>Pellentesque Id</h3>
                                 <p className='text-[1.125rem] leading-[1.7] overflow-hidden relative z-2 mt-0 mb-[1rem] box-border block intersect-once intersect:motion-preset-slide-right motion-duration-1200'>Lorem Ipsum: Muspi Merol</p>
-                                <p className='text-[1.125rem] leading-[1.7] overflow-hidden relative z-2 mt-0 mb-[1rem] box-border block intersect-once intersect:motion-preset-slide-right motion-duration-1400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
+                                <p className='text-[1.125rem] leading-[1.7] overflow-hidden relative z-2 mt-0 mb-[1rem] box-border block intersect-once intersect:motion-preset-slide-right motion-duration-1000'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus, lacus et porta faucibus, elit ante ultricies purus, eu suscipit arcu felis porta tellus.</p>
                             </div>
                         </div>
                     )}
