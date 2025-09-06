@@ -17,12 +17,12 @@ const HeaderM = () => {
                 />
             </div>
             {/* DATE */}
-            <div className='relative w-screen mt-[5rem] box-border block break-words text-right motion-preset-slide-right motion-duration-1000'>
+            <div className='relative w-screen mt-[5rem] box-border block break-words text-right motion-preset-slide-right motion-duration-2000'>
                 <p className='top-[65px] left-[-55px] block text-[1.4rem] text-moss transform -rotate-90 absolute z-2 mt-0 mb-[1rem]
                 space-y-[1em] space-x-[0px] break-words text-right'>November 28, 2025</p>
             </div>
             {/* IMAGE 2 */}
-            <div className='w-[80%] max-w-[80%] h-[0%] relative ml-auto box-border block min-h-[25%] align-middle motion-preset-slide-left motion-duration-1000'>
+            <div className='w-[80%] max-w-[80%] h-[0%] relative ml-auto box-border block min-h-[25%] align-middle motion-preset-slide-left motion-duration-2000'>
                 <Image 
                     alt=''
                     src={'/pictures/photo-2.jpg'}
@@ -31,7 +31,7 @@ const HeaderM = () => {
                 />
             </div>
             {/* FLOWER 1 */}
-            <div className='w-[11rem] h-[14rem] bottom-[10%] left-[55%] relative z-1 box-border motion-preset-slide-up motion-duration-1000'>
+            <div className='w-[11rem] h-[14rem] bottom-[10%] left-[55%] relative z-1 box-border motion-preset-slide-up motion-duration-2200'>
                 <Image 
                     alt=''
                     src={'/flowers/floater_1.png'}

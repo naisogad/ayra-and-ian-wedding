@@ -27,7 +27,7 @@ const DropdownButton = ({question, answer}) => {
                 </svg>
           </div>  
       </div>
-          <div className={`${toggleMenu? '': 'hidden'} pt-4 pb-1`}>
+          <div className={`${toggleMenu? '': 'hidden'} pt-4 pb-1 pr-2`}>
               <p>{answer}</p>
           </div>
   </button> 

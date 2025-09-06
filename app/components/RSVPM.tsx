@@ -36,9 +36,9 @@ const RSVPM = () => {
                 className='object-cover'
             />
         </div>
-        <div className='box-border absolute top-0 left-0 z-0 block'>
+        <div className='box-border absolute top-0 left-0 z-0 block intersect-once intersect:motion-preset-slide-right motion-duration-1000'>
             {/* TITLE */}
-            <h2 className='-rotate-90 absolute margin-0 whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[8rem] left-[-2.7rem] text-[3.2rem] leading-[0.9] text-moss'>RSVP</h2>
+            <h2 className='-rotate-90 relative margin-0 whitespace-nowrap text-ellipsis z-0 pb-[0.5rem] top-[8rem] left-[-2.7rem] text-[3.2rem] leading-[0.9] text-moss'>RSVP</h2>
         </div>
         {/* CONTENT CONTAINER */}
         <div className='ml-auto pl-0 pr-0 z-0 grow-0 shrink-0 basis-[70%] max-w-[70%] relative w-[100%] min-h-[1px] box-border block bg-amber-50'>

@@ -35,7 +35,7 @@ const Couple = () => {
                         {/* IMAGE 2 */}
                         <div className='pl-0 pr-0 grow-0 shrink-0 basis-[33.33%] max-w-[33.33%] relative w-[100%] box-border block'>
                             <div className='justify-center flex flex-wrap mr-[-15px] ml-[-15px] box-border'>
-                                <div className='grow-0 shrink-0 basis-[91.66%] max-w-[91.66%] relative w-[100%] min-h-[38rem] ml-[30px] mr-[30px] box-border block intersect-once intersect:motion-preset-slide-up motion-duration-1000'>
+                                <div className='grow-0 shrink-0 basis-[91.66%] max-w-[91.66%] relative w-[100%] min-h-[38rem] ml-[30px] mr-[30px] box-border block intersect-once intersect:motion-preset-slide-up motion-duration-1500'>
                                     <Image
                                         alt=''
                                         src={'/pictures/photo-4.jpg'}
@@ -48,7 +48,7 @@ const Couple = () => {
                         {/* IMAGE 3 */}
                         <div className='pl-0 pr-0 grow-0 shrink-0 basis-[33.33%] max-w-[33.33%] relative w-[100%] box-border block'>
                             <div className='justify-start flex flex-wrap mr-[-15px] ml-[-15px] box-border'>
-                                <div className='grow-0 shrink-0 basis-[91.66%] max-w-[91.66%] relative w-[100%] min-h-[38rem] ml-[30px] mr-[30px] box-border block intersect-once intersect:motion-preset-slide-up motion-duration-1000'>
+                                <div className='grow-0 shrink-0 basis-[91.66%] max-w-[91.66%] relative w-[100%] min-h-[38rem] ml-[30px] mr-[30px] box-border block intersect-once intersect:motion-preset-slide-up motion-duration-2000'>
                                     <Image
                                         alt=''
                                         src={'/pictures/photo-5.jpg'}
