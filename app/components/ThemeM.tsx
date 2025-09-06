@@ -55,21 +55,40 @@ const ThemeM = () => {
                                 <p className='text-moss text-[1.125rem]'>Our wedding will feature these elegant colors. Feel free to incorporate them into your outfit! Lastly guests, wear your best accessories. Your smiles and lively personalities.    </p>
                             </div>
                             {/* COLORS */}
-                            <div className='flex flex-wrap justify-center gap-[1.1rem] text-center mt-[2rem] mb-[3rem] intersect-once intersect:motion-preset-slide-left motion-duration-3000'>
+                            <div className='flex flex-wrap justify-center gap-[2rem] text-center mt-[2rem] mb-[3rem] intersect-once intersect:motion-preset-slide-left motion-duration-3000'>                            
                                 {/* COLOR 1 */}
                                 <div className='items-center flex flex-col box-border'>
-                                    <div className='bg-moss rounded-full w-[4rem] h-[4rem]'></div>
-                                    <p className='text-moss text-[1.125rem] mt-[0.5rem]'>Moss</p>
+                                    <div className='bg-gold rounded-full w-[4rem] h-[4rem]'></div>
+                                    <p className='text-moss text-[0.8rem] mt-[0.5rem]'>Gold</p>
                                 </div>
                                 {/* COLOR 2 */}
-                                <div className='items-center flex flex-col box-border]'>
-                                    <div className='bg-stain rounded-full w-[4rem] h-[4rem]'></div>
-                                    <p className='text-moss text-[1.125rem] mt-[0.5rem]'>Stain</p>
+                                <div className='items-center flex flex-col box-border'>
+                                    <div className='bg-goldenrod rounded-full w-[4rem] h-[4rem]'></div>
+                                    <p className='text-moss text-[0.8rem] mt-[0.5rem]'>Golden Rod</p>
                                 </div>
                                 {/* COLOR 3 */}
-                                <div className='items-center flex flex-col box-border]'>
-                                    <div className='bg-yellow-200 rounded-full w-[4rem] h-[4rem]'></div>
-                                    <p className='text-moss text-[1.125rem] mt-[0.5rem]'>Yellow</p>
+                                <div className='items-center flex flex-col box-border'>
+                                    <div className='bg-darkseagreen rounded-full w-[4rem] h-[4rem]'></div>
+                                    <p className='text-moss text-[0.8rem] mt-[0.5rem] text-clip'>Dark Sea <br />Green</p>
+                                </div>
+                                {/* COLOR 4 */}
+                                <div className='items-center flex flex-col box-border'>
+                                    <div className='bg-olive rounded-full w-[4rem] h-[4rem]'></div>
+                                    <p className='text-moss text-[0.8rem] mt-[0.5rem]'>Olive</p>
+                                </div>
+                                {/* COLOR 5 */}
+                                <div className='items-center flex flex-col box-border'>
+                                    <div className='bg-beige rounded-full w-[4rem] h-[4rem]'></div>
+                                    <p className='text-moss text-[0.8rem] mt-[0.5rem]'>Beige</p>
+                                </div>
+                                {/* COLOR 6 */}
+                                <div className='items-center flex flex-col box-border'>
+                                    <div className='bg-tan rounded-full w-[4rem] h-[4rem]'></div>
+                                    <p className='text-moss text-[0.8rem] mt-[0.5rem]'>Tan</p>
+                                </div>
+                                <div className='items-center flex flex-col box-border'>
+                                    <div className='bg-saddlebrown rounded-full w-[4rem] h-[4rem]'></div>
+                                    <p className='text-moss text-[0.8rem] mt-[0.5rem]'>Saddle Brown</p>
                                 </div>
                             </div>
                         </div>
