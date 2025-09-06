@@ -69,7 +69,7 @@ const ThemeM = () => {
                                 {/* COLOR 3 */}
                                 <div className='items-center flex flex-col box-border'>
                                     <div className='bg-darkseagreen rounded-full w-[4rem] h-[4rem]'></div>
-                                    <p className='text-moss text-[0.8rem] mt-[0.5rem] text-clip'>Dark Sea <br />Green</p>
+                                    <p className='text-moss text-[0.8rem] mt-[0.5rem] leading-[0.9rem] text-clip'>Dark Sea <br />Green</p>
                                 </div>
                                 {/* COLOR 4 */}
                                 <div className='items-center flex flex-col box-border'>
